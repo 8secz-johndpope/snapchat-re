@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.camera.snappables.startbutton.DefaultStartButtonView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/start_button" android:padding="@dimen/start_button_padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>

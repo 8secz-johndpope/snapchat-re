@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/regular_grey" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/chat_image_media" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/chat_image_media_stub" android:layout="@layout/chat_media_image" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/chat_video_media_stub" android:layout="@layout/chat_media_video" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/chat_spectacles_mask_stub" android:layout="@layout/chat_media_spectacles_mask" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

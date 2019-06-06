@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/top_view" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.snap.component.header.SnapSubscreenHeaderView android:layout_gravity="top" android:id="@+id/header" app:title_text="@string/subscreen_header_title_select" style="@style/subscreen_header_cancel"/>
+        <FrameLayout android:layout_gravity="bottom" android:id="@+id/actions_view" style="@style/action_mode_actionbar">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/default_actions" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/primary_action" android:visibility="invisible" style="@style/action_mode_actionbar_primary_button"/>
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/bottom_view" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

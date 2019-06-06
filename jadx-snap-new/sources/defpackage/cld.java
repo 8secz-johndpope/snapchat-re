@@ -1,0 +1,139 @@
+package defpackage;
+
+import defpackage.fth.a;
+import java.util.concurrent.TimeUnit;
+
+/* renamed from: cld */
+public enum cld implements fth {
+    IS_NOT_IN_ADS_HOLDOUT(a.a(true)),
+    IS_NOT_IN_ADS_FF_HOLDOUT(a.a(true)),
+    SNAP_ADS_GATING_ENABLED(a.a(true)),
+    ENABLE_DISCOVER_AD(a.a(true)),
+    ENABLE_OUR_STORY_AD(a.a(true)),
+    ENABLE_USER_STORY_AD(a.a(true)),
+    ENABLE_ADS_IN_SHOWS(a.a(true)),
+    ENABLE_CONTENT_INTERSTITIAL_ADS(a.a(true)),
+    ENABLE_COMMERCIAL_WHITELISTING(a.a(false)),
+    ENABLE_GZIP_FOR_REQUEST(a.a(false)),
+    ENABLE_AD_CREATIVE_PREVIEW(a.a(true)),
+    ENABLE_LOWER_THRESHOLD_FOR_SWIPE_UP(a.a(false)),
+    ENABLE_COGNAC_AD(a.a(true)),
+    ENABLE_SHADOW_REQUESTS(a.a(false)),
+    ENABLE_AD_RESPONSE_PROTO_PAYLOAD(a.a(false)),
+    ENABLE_PETRA(a.a(false)),
+    ENABLE_DPA(a.a(false)),
+    REMOTE_WEB_URL(a.a(r2)),
+    SKIP_FIRST_SAFE_URL_BROWSING_CHECK(a.a(false)),
+    ENABLE_WEBVIEW_PERFORMANCE_LOGGING(a.a(false)),
+    ENABLE_CHROME_CUSTOM_TABS_WEBVIEW(a.a(false)),
+    OVERRIDE_WEBVIEW_PRELOAD_FLAG(a.a(a.NO_OVERRIDE)),
+    PERSISTED_COOKIES(a.a(r2)),
+    ENABLE_V2_COOKIE_MANAGER(a.a(false)),
+    DEBUG_AD_TYPE(a.a(clb.NOT_APPLICABLE)),
+    FILL_ALL_AD_SLOTS(a.a(false)),
+    DEEP_LINK_URL(a.a(r2)),
+    SNAPCHAT_TRACKING_HOST(a.a("tr.snapchat.com")),
+    SNAPCHAT_PIXEL_TRACKING_PATH(a.a("/cm/wv")),
+    SNAPCHAT_PIXEL_TRACKING_COOKIE_NAME(a.a("sc_at")),
+    SNAPCHAT_PIXEL_TRACKING_CLIENT_TTL_COOKIE_NAME(a.a("sc_at_client_ttl")),
+    SNAPCHAT_TRACKING_CLIENT_TTL_MS(a.a(TimeUnit.HOURS.toMillis(24))),
+    PIXEL_COOKIE_VALUE(a.a(r2)),
+    PIXEL_COOKIE_FETCH_TIME_MS(a.a(0)),
+    AD_CACHING_ENABLE(a.a(true)),
+    NO_FILL_AD_RESPONSE_CACHING_ENABLE(a.a(true)),
+    AD_CACHING_TTL_SEC(a.a(120)),
+    AD_MEDIA_CACHING_TTL_DAY(a.a(28)),
+    MULTI_AUCTION_REQUEST_AUTO_ADVANCE_ENABLED(a.a(false)),
+    MULTI_AUCTION_REQUEST_AUTO_ADVANCE_SIZE(a.a(1)),
+    VIEW_RECEIPT_ENABLED(a.a(true)),
+    VIEW_RECEIPT_TTL_SEC(a.a(300)),
+    AD_CREATIVE_PREVIEW_PAYLOAD_VERSION(a.a("/v1")),
+    USER_STORY_MIN_STORIES_FROM_SESSION_START(a.a(1)),
+    USER_STORY_MIN_STORIES_BEFORE_SESSION_END(a.a(0)),
+    USER_STORY_MIN_STORIES_BETWEEN_ADS(a.a(2)),
+    USER_STORY_MIN_SNAPS_FROM_SESSION_START(a.a(1)),
+    USER_STORY_MIN_SNAPS_BETWEEN_ADS(a.a(2)),
+    USER_STORY_MIN_DURATION_FROM_SESSION_START_SECONDS(a.a(0)),
+    USER_STORY_MIN_DURATION_BETWEEN_ADS_SECONDS(a.a(0)),
+    OVERRIDE_ENABLE_FLAG_IN_CONTENT_INTERSTITIAL_EXPERIMENT(a.a(false)),
+    CONTENT_INTERSTITIAL_MIN_DURATION_FROM_SESSION_START_SECONDS(a.a(0)),
+    CONTENT_INTERSTITIAL_MIN_DURATION_BETWEEN_ADS_SECONDS(a.a(0)),
+    CONTENT_INTERSTITIAL_MIN_SNAPS_BETWEEN_ADS(a.a(0)),
+    CONTENT_INTERSTITIAL_MIN_SNAPS_FROM_SESSION_START(a.a(0)),
+    CONTENT_INTERSTITIAL_MIN_STORIES_FROM_SESSION_START(a.a(0)),
+    CONTENT_INTERSTITIAL_MIN_STORIES_BEFORE_END(a.a(0)),
+    CONTENT_INTERSTITIAL_MIN_STORIES_BETWEEN_ADS(a.a(0)),
+    SNAP_ADS_DISCOVER_MEDIA_DOWNLOAD_TIMEOUT_SECONDS(a.a(5)),
+    SNAP_ADS_FIXED_AD_SLOT_LOADING_TIMEOUT_SECONDS(a.a(5)),
+    USE_BATCH_REQUEST_FOR_DISCOVER_AD(a.a(false)),
+    DISCARD_PREVIOUS_AD_SLOTS(a.a(false)),
+    REORDER_PREVIOUS_AD_SLOTS(a.a(false)),
+    ENABLE_UNSKIPPABLE_ATTACHMENT(a.a(false)),
+    ENABLE_NON_BLOCKING_AD_MEDIA_DOWNLOAD_OPT(a.a(false)),
+    SNAP_ADS_RETRO_IS_ENABLED(a.a(false)),
+    SNAP_ADS_RETRO_INITIAL_RETRY_DELAY_MILLIS(a.a(-1)),
+    SNAP_ADS_RETRO_MAX_NETWORK_RETRIES_PERSISTENCE(a.a(-1)),
+    SNAP_ADS_RETRO_MAX_NETWORK_RETRIES(a.a(-1)),
+    SNAP_ADS_RETRO_MAX_AGE_MILLIS(a.a(-1)),
+    SNAP_ADS_RETRO_MAX_RETRO_RETRIES(a.a(-1)),
+    SNAP_ADS_RETRO_ENABLE_GRAPHENE_FLUSH(a.a(false)),
+    SNAP_ADS_RETRO_ENABLE_PROCESS(a.a(true)),
+    PRESET_AD_SERVER_HOST(a.a(cla.DEFAULT)),
+    CUSTOM_AD_SERVER_HOST(a.a(r2)),
+    INIT_AD_SOURCES(a.a(r2)),
+    SERVE_AD_SOURCES(a.a(r2)),
+    TRACK_AD_SOURCES(a.a(r2)),
+    BATCH_TRACK_AD_SOURCES(a.a(r2)),
+    COGNAC_AD_NO_FILL_RETRY_DELAY_SECONDS(a.a(120)),
+    MUSHROOM_DISCOVER_AD_BATCH_NETWORK_REQUEST_TIMEOUT_SECONDS(a.a(10)),
+    MUSHROOM_MULTI_AUCTION_AD_NETWORK_REQUEST_TIMEOUT_SECONDS(a.a(10)),
+    MUSHROOM_PUBLISHER_AD_SERVE_NETWORK_REQUEST_TIMEOUT_SECONDS(a.a(10)),
+    MUSHROOM_DYNAMIC_AD_SERVE_NETWORK_REQUEST_TIMEOUT_SECONDS(a.a(10)),
+    MUSHROOM_INIT_NETWORK_REQUEST_TIMEOUT_SECONDS(a.a(30)),
+    MUSHROOM_THIRD_PARTY_TRACK_NETWORK_REQUEST_TIMEOUT_SECONDS(a.a(60)),
+    MUSHROOM_AD_INTEREST_NETWORK_REQUEST_TIMEOUT_SECONDS(a.a(5)),
+    MUSHROOM_PIXEL_TRACK_NETWORK_REQUEST_TIMEOUT_SECONDS(a.a(30)),
+    MUSHROOM_AD_TRACK_NETWORK_REQUEST_TIMEOUT_SECONDS(a.a(60)),
+    MUSHROOM_RETRO_NETWORK_REQUEST_WITH_RETRY_TIMEOUT_SECONDS(a.a(60)),
+    INIT_RESPONSE_TTL_MS(a.a(TimeUnit.MINUTES.toMillis(5)));
+    
+    private final a<?> delegate;
+
+    /* renamed from: cld$a */
+    public enum a {
+        private static final /* synthetic */ a[] $VALUES = null;
+        public static final a LOAD_ON_VISIBLE = null;
+        public static final a NO_OVERRIDE = null;
+        public static final a PRELOAD = null;
+
+        static {
+            NO_OVERRIDE = new a("NO_OVERRIDE", 0);
+            PRELOAD = new a("PRELOAD", 1);
+            LOAD_ON_VISIBLE = new a("LOAD_ON_VISIBLE", 2);
+            $VALUES = new a[]{NO_OVERRIDE, PRELOAD, LOAD_ON_VISIBLE};
+        }
+
+        private a(String str, int i) {
+        }
+
+        public static a valueOf(String str) {
+            return (a) Enum.valueOf(a.class, str);
+        }
+
+        public static a[] values() {
+            return (a[]) $VALUES.clone();
+        }
+    }
+
+    private cld(a<?> aVar) {
+        this.delegate = aVar;
+    }
+
+    public final a<?> a() {
+        return this.delegate;
+    }
+
+    public final ftg b() {
+        return ftg.SNAPADS;
+    }
+}

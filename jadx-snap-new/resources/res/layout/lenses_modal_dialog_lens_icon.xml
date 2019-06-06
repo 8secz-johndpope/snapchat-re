@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.imageloading.view.SnapImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:background="@drawable/lens_modal_icon_round_border" android:layout_width="91dp" android:layout_height="91dp" android:layout_marginTop="-53dp" android:src="@drawable/lens_placeholder"/>

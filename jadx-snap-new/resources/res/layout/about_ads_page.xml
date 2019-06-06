@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/ad_info_about_ads_body_container" android:paddingTop="@dimen/default_gap_2x" android:paddingBottom="@dimen/default_gap_2x" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:paddingTop="2dp" android:paddingBottom="2dp" android:text="@string/ad_info_about_ads_body_title" android:layout_marginStart="@dimen/default_gap" android:layout_marginEnd="@dimen/default_gap" style="@style/ad_info_item_text"/>
+            <TextView android:paddingTop="2dp" android:paddingBottom="2dp" android:text="@string/ad_info_about_ads_body_text" android:layout_marginStart="@dimen/default_gap" android:layout_marginEnd="@dimen/default_gap" style="@style/ad_info_item_subtext"/>
+            <TextView android:textSize="@dimen/subpage_learn_more_text_size" android:textColor="@color/dark_blue" android:gravity="center" android:id="@+id/ad_info_about_ads_learn_more" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ad_info_learn_more_text"/>
+        </LinearLayout>
+        <include layout="@layout/list_separator"/>
+    </LinearLayout>
+</LinearLayout>

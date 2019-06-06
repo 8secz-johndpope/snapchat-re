@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.snap.hova.HovaAvatarContainerView android:id="@+id/neon_header_avatar_container" style="@style/hova_avatar_container_view"/>
+    <LinearLayout android:id="@+id/neon_header_layout" android:clipChildren="false" style="@style/v11_header_search_container">
+        <ImageView android:id="@+id/hova_header_search_icon" android:src="@drawable/neon_header_search_stroked" android:tint="@color/white" android:contentDescription="@string/v11_search_bar_label" style="@style/v11_hova_header_search_icon"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/neon_header_title" android:text="@string/v11_search_bar_label" style="@style/v11_hova_header_input_text"/>
+        <com.snap.hova.V11HovaAddFriendsButtonContainerView android:id="@+id/neon_add_friend_button_container" app:icon_background_drawable="@drawable/add_friends_header_camera" app:icon_tint="@color/white" style="@style/v11_hova_header_add_friend_icon"/>
+    </LinearLayout>
+</merge>

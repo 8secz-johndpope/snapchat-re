@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.camera.cta.DefaultCtaView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.snap.ui.view.SnapFontTextView android:textSize="12sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/lens_cta_text" android:background="@drawable/lens_cta_background" android:layout_width="wrap_content" android:layout_height="@dimen/lens_cta_button_height" android:shadowColor="#b3000000" android:shadowDx="0" android:shadowDy="0" android:shadowRadius="2" android:paddingStart="12dp" android:paddingEnd="12dp"/>
+</com.snap.lenses.camera.cta.DefaultCtaView>

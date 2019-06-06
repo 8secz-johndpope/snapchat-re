@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/settings_memories_page" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="14sp" android:gravity="start" android:id="@+id/memories_settings_text" android:padding="@dimen/default_gap_quarter" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap_2x" android:text="@string/gallery_description" style="@style/new_settings_item_text"/>
+    <TextView android:text="@string/settings_storage" style="@style/new_settings_section_header"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/smart_backup_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="80dp" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:id="@+id/smart_backup_textview" android:paddingTop="2dp" android:paddingBottom="2dp" android:text="@string/smart_backup" style="@style/new_settings_item_name"/>
+            <TextView android:id="@+id/smart_backup_description_textview" android:paddingTop="2dp" android:paddingBottom="2dp" android:text="@string/smart_backup_description" style="@style/new_settings_item_text"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/smart_backup_checkbox" style="@style/new_settings_checkbox"/>
+    </LinearLayout>
+    <TextView android:text="@string/memories_settings_save" style="@style/new_settings_section_header"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/save_button_section" style="@style/new_settings_item_outer">
+        <TextView android:layout_width="0dp" android:text="@string/save_button_settings_header" android:layout_weight="1" style="@style/new_settings_item_name"/>
+        <TextView android:id="@+id/save_button_setting" android:text="@string/memories" style="@style/new_settings_item_status"/>
+    </LinearLayout>
+    <include android:id="@+id/saving_section_separator" layout="@layout/list_separator"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/my_story_posts_section" style="@style/new_settings_item_outer">
+        <TextView android:layout_width="0dp" android:text="@string/my_story_posts_settings_header" android:layout_weight="1" style="@style/new_settings_item_name"/>
+        <TextView android:id="@+id/my_story_posts_setting" android:text="@string/memories" style="@style/new_settings_item_status"/>
+    </LinearLayout>
+    <include android:id="@+id/saving_section_separator" layout="@layout/list_separator"/>
+</LinearLayout>

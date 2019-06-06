@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.tileactionmenu.TileActionMenuView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/tile_action_menu_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop"/>
+    <com.snapchat.android.framework.ui.actionmenu.ActionMenuOptionsContainerView android:id="@+id/tile_action_menu_options" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</com.snap.ui.tileactionmenu.TileActionMenuView>

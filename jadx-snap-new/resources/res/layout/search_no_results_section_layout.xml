@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/publisher_card_item" android:background="@drawable/search_card_no_background" android:layout_width="match_parent" android:layout_height="@dimen/search_friend_item_height">
+    <TextView android:textSize="@dimen/search_friend_item_primary_text_size" android:textColor="@color/search_item_title" android:gravity="center" android:orientation="vertical" android:id="@+id/no_results_text_view" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/search_no_results"/>
+</android.support.constraint.ConstraintLayout>

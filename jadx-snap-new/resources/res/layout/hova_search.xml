@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/hova_page" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/neon_header_layout" android:background="@drawable/neon_header_gradient" android:layout_height="@dimen/neon_header_gradient_height" style="@style/neon_header_container">
+        <ImageView android:layout_gravity="start" android:id="@+id/neon_header_back_button" style="@style/neon_header_back_white_search"/>
+        <ImageView android:id="@+id/hova_header_search_icon" android:clickable="false" android:src="@drawable/neon_header_search_icon" android:contentDescription="@string/search_title" style="@style/hova_header_icon_search_icon"/>
+        <com.snap.ui.view.SnapFontEditText android:id="@+id/neon_header_title" android:hint="@string/search_title" android:maxLength="25" android:textDirection="inherit" style="@style/hova_header_text_search"/>
+        <ImageView android:id="@+id/clear_search_button" android:padding="16dp" android:visibility="gone" android:src="@drawable/aa_search_bar_clear" style="@style/hova_header_icon"/>
+    </LinearLayout>
+</FrameLayout>

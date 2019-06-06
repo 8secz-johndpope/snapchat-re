@@ -1,0 +1,13 @@
+package defpackage;
+
+/* renamed from: ebk */
+public enum ebk {
+    READY,
+    REQUESTED,
+    PREPARING_CAPTURE_VIDEO,
+    CAPTURING_VIDEO,
+    CAPTURING_VIDEO_WITHOUT_SURFACE_RECORDING,
+    CAPTURING_PICTURE,
+    VIDEO_COMPLETING,
+    PRESENTING_CAPTURE_RESULT
+}

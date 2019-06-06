@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/opera_tap_back_overlay_gradient" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/opera_tap_back_gradient" android:scaleType="fitStart"/>
+</FrameLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/story_count_background" android:insetLeft="@dimen/default_gap" android:insetRight="@dimen/default_gap" android:insetTop="@dimen/default_gap" android:insetBottom="@dimen/default_gap"/>

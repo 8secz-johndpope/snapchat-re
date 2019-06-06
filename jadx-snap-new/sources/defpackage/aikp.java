@@ -1,0 +1,59 @@
+package defpackage;
+
+import java.util.Locale;
+
+/* renamed from: aikp */
+public enum aikp {
+    USERNAME_EMPTY(r2),
+    USERNAME_INVALID_SHORT(r3),
+    USERNAME_INVALID_LONG(r4),
+    USERNAME_INVALID_BEGIN(r5),
+    USERNAME_INVALID_END(r6),
+    USERNAME_INVALID_CHAR(r7),
+    USERNAME_INVALID_SEPARATED(r8),
+    USERNAME_TAKEN(r8),
+    USERNAME_DELETED("USERNAME_DELETED"),
+    USERNAME_INVALID("USERNAME_INVALID"),
+    REGISTRATION_PASSWORD_EMPTY("REGISTRATION_PASSWORD_EMPTY"),
+    REGISTRATION_PASSWORD_TOO_SHORT("REGISTRATION_PASSWORD_TOO_SHORT"),
+    REGISTRATION_PASSWORD_TOO_COMMON("REGISTRATION_PASSWORD_TOO_COMMON"),
+    REGISTRATION_PASSWORD_TOO_EASY("REGISTRATION_PASSWORD_TOO_EASY"),
+    REGISTRATION_PASSWORD_SIMILAR_TO_USERNAME("REGISTRATION_PASSWORD_SIMILAR_TO_USERNAME"),
+    REGISTRATION_PASSWORD_SIMILAR_TO_EMAIL("REGISTRATION_PASSWORD_SIMILAR_TO_EMAIL"),
+    USERNAME_SAME_AS_PASSWORD("USERNAME_SAME_AS_PASSWORD"),
+    DISPLAY_NAME_EMPTY("DISPLAY_NAME_EMPTY"),
+    EMAIL_EMPTY("EMAIL_EMPTY"),
+    EMAIL_INVALID("EMAIL_INVALID"),
+    EMAIL_USED("EMAIL_USED"),
+    ERROR_OCCURRED("ERROR_OCCURRED"),
+    BIRTHDAY_EMPTY("BIRTHDAY_EMPTY"),
+    BIRTHDAY_INVALID("BIRTHDAY_INVALID"),
+    REGISTRATION_ERROR_AGE_13("REGISTRATION_ERROR_AGE_13"),
+    PHONE_NUMBER_ERROR("PHONE_NUMBER_ERROR"),
+    UNRECOGNIZED_VALUE("UNRECOGNIZED_VALUE");
+    
+    private final String value;
+
+    private aikp(String str) {
+        this.value = str;
+    }
+
+    public static aikp a(String str) {
+        if (str == null) {
+            return UNRECOGNIZED_VALUE;
+        }
+        try {
+            return aikp.valueOf(str.toUpperCase(Locale.US));
+        } catch (Exception unused) {
+            return UNRECOGNIZED_VALUE;
+        }
+    }
+
+    public final String a() {
+        return this.value;
+    }
+
+    public final String toString() {
+        return this.value;
+    }
+}

@@ -1,0 +1,40 @@
+package defpackage;
+
+import defpackage.fth.a;
+
+/* renamed from: zun */
+public enum zun implements fth {
+    DEFAULT_UPLOAD_LIBJPEG_IMAGE_ENCODING_QUALITY(a.a(80)),
+    LIBJPEG_IMAGE_ENCODING_LOW_QUALITY(a.a(60)),
+    LIBJPEG_IMAGE_ENCODING_MID_QUALITY(a.a(70)),
+    LIBJPEG_IMAGE_ENCODING_HIGH_QUALITY(a.a(80)),
+    LIBJPEG_IMAGE_ENCODING_LOW_RESOLUTION(a.a(720)),
+    LIBJPEG_IMAGE_ENCODING_MID_RESOLUTION(a.a(1080)),
+    LIBJPEG_IMAGE_ENCODING_HIGH_RESOLUTION(a.a(1440)),
+    LIBJPEG_IMAGE_ENCODING_BY_NETWORK_ENABLED(a.a(true)),
+    LIBJPEG_IMAGE_ENCODING_USE_UPLOAD_BANDWIDTH(a.a(false)),
+    LIBJPEG_IMAGE_ENCODING_MID_QUALITY_MIN_BITPS(a.a(4000000)),
+    LIBJPEG_IMAGE_ENCODING_HIGH_QUALITY_MIN_BITPS(a.a(8000000)),
+    LIBJPEG_IMAGE_ENCODING_MID_RESOLUTION_MIN_BITPS(a.a(16000000)),
+    LIBJPEG_IMAGE_ENCODING_HIGH_RESOLUTION_MIN_BITPS(a.a(100000000)),
+    LIBJPEG_IMAGE_ENCODING_BY_SOURCE_ENABLED(a.a(false)),
+    LIBJPEG_IMAGE_ENCODING_BY_SOURCE_QUALITY(a.a(60)),
+    LIBJPEG_IMAGE_ENCODING_BY_SOURCE_RESOLUTION(a.a(720)),
+    USE_BOLT_FOR_UPLOAD(a.a(false)),
+    MEDIA_UPLOAD_QUALITY_LEVEL(a.a(0)),
+    MDP_PERSIST_UPLOAD_STATE_ANDROID(a.a(false));
+    
+    private final a<?> delegate;
+
+    private zun(a<?> aVar) {
+        this.delegate = aVar;
+    }
+
+    public final a<?> a() {
+        return this.delegate;
+    }
+
+    public final ftg b() {
+        return ftg.UPLOAD;
+    }
+}

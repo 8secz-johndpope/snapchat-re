@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/add_friends_all_contacts_header_size" android:textColor="@color/medium_grey" android:id="@+id/second_header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_contacts" app:scFontWeight="2"/>
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/side_icon" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/add_friends_side_icon_margin_top" android:layout_toEndOf="@+id/second_header_text" style="@style/FlippableImage"/>
+</RelativeLayout>

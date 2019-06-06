@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_friends_button_subtext">
+        <item>%1$s użytkownik Snapchata dodał Cię!</item>
+        <item>%1$s użytkowników Snapchata dodało Ciebie!</item>
+        <item>%1$s użytkowników Snapchata dodało Ciebie!</item>
+        <item>%1$s użytkowników Snapchata dodało Ciebie!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item>Wybrane elementy zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Czy chcesz usunąć oryginały z Rolki z aparatu? Wybrany element został pomyślnie dodany do sekcji „Tylko dla mnie&quot;. Czy chcesz usunąć oryginał z Rolki z aparatu?</item>
+        <item>Wybrane elementy zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Czy chcesz usunąć oryginały z Rolki z aparatu?</item>
+        <item>Wybrane elementy zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Czy chcesz usunąć oryginały z Rolki z aparatu?</item>
+        <item>Wybrane elementy zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Czy chcesz usunąć oryginały z Rolki z aparatu?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item>Twoje zdjęcia zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Chcesz usunąć oryginały z Rolki z aparatu? Twoje zdjęcie zostało pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Chcesz usunąć oryginał z Rolki z aparatu?</item>
+        <item>Twoje zdjęcia zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Chcesz usunąć oryginały z Rolki z aparatu?</item>
+        <item>Twoje zdjęcia zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Chcesz usunąć oryginały z Rolki z aparatu?</item>
+        <item>Twoje zdjęcia zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Chcesz usunąć oryginały z Rolki z aparatu?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item>Twoje filmy zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Czy chcesz usunąć oryginały z Rolki z aparatu? Twój film został pomyślnie dodany do sekcji „Tylko dla mnie&quot;. Czy chcesz usunąć oryginał z Rolki z aparatu?</item>
+        <item>Twoje filmy zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Czy chcesz usunąć oryginały z Rolki z aparatu?</item>
+        <item>Twoje filmy zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Czy chcesz usunąć oryginały z Rolki z aparatu?</item>
+        <item>Twoje filmy zostały pomyślnie dodane do sekcji „Tylko dla mnie&quot;. Czy chcesz usunąć oryginały z Rolki z aparatu?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item>Usuń oryginalną wersję</item>
+        <item>Usuń oryginalne wersje</item>
+        <item>Usuń oryginalne wersje</item>
+        <item>Usuń oryginalne wersje</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item>\10Spróbuj ponownie za %1$d min</item>
+        <item>\10Spróbuj ponownie za %1$d min</item>
+        <item>\10Spróbuj ponownie za %1$d min</item>
+        <item>\10Spróbuj ponownie za %1$d min</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item>i %d innymi</item>
+        <item>i %d innymi</item>
+        <item>i %d innymi</item>
+        <item>i %d innymi</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item>Miasto</item>
+        <item>Miasta</item>
+        <item>Miasta</item>
+        <item>Miasta</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item>Kraj</item>
+        <item>Kraje</item>
+        <item>Kraje</item>
+        <item>Kraje</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item>Miejsce</item>
+        <item>Miejsca</item>
+        <item>Miejsca</item>
+        <item>Miejsca</item>
+    </plurals>
+    <plurals name="media_export_service_failed">
+        <item>Snapy, których nie udało się wyeksportować: %1$d</item>
+        <item>Snapy, których nie udało się wyeksportować: %1$d</item>
+        <item>Snapy, których nie udało się wyeksportować: %1$d</item>
+        <item>Snapy, których nie udało się wyeksportować: %1$d</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item>Eksportowanie Snapów (%1$d)...</item>
+        <item>Eksportowanie Snapów (%1$d)...</item>
+        <item>Eksportowanie Snapów (%1$d)...</item>
+        <item>Eksportowanie Snapów (%1$d)...</item>
+    </plurals>
+    <plurals name="media_export_service_queued_exports">
+        <item>Snapy oczekujące na eksport: %1$d</item>
+        <item>Snapy oczekujące na eksport: %1$d</item>
+        <item>Snapy oczekujące na eksport: %1$d</item>
+        <item>Snapy oczekujące na eksport: %1$d</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item>Eksportowane Snapy: %1$d</item>
+        <item>Eksportowane Snapy: %1$d</item>
+        <item>Eksportowane Snapy: %1$d</item>
+        <item>Eksportowane Snapy: %1$d</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item>%1$d Zaimportowany Snap od %2$s</item>
+        <item>%1$d zaimportowane Snapy od %2$s</item>
+        <item>%1$d zaimportowanych Snapów od %2$s</item>
+        <item>%1$d Snapy zaimportowane od %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item>Liczba zaimportowanych Snapów: %1$d!</item>
+        <item>Zaimportowano %1$d Snapy!</item>
+        <item>Zaimportowano %1$d Snapów!</item>
+        <item>Imported %1$d Snaps!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item>Nowy Snap od %s</item>
+        <item>Nowe Snapy od %s</item>
+        <item>Nowych Snapów od %s</item>
+        <item>Nowe Snapy od %s</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item>1 sztuka</item>
+        <item>%d sztuki</item>
+        <item>%d sztuki</item>
+        <item>%d sztuk(i)</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item>Jeden Snap nie został jeszcze zarchiwizowany w Memories. Jeżeli wylogujesz się teraz, możesz go stracić.</item>
+        <item>%1$d Snapy nie zostały jeszcze zarchiwizowane w Memories. Jeżeli wylogujesz się teraz, możesz je stracić.</item>
+        <item>%1$d Snapów nie zostało jeszcze zarchiwizowanych w Memories. Jeżeli wylogujesz się teraz, możesz je stracić.</item>
+        <item>%1$d Snapów nie zostało jeszcze zarchiwizowanych w Memories. Jeżeli wylogujesz się teraz, możesz je stracić.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item>sekunda</item>
+        <item>sekundy</item>
+        <item>sekund</item>
+        <item>sekundy</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item>%1$d Snap</item>
+        <item>%1$d Snapy</item>
+        <item>%1$d Snapów</item>
+        <item>%1$d Snapy(-ów)</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item>Jak chcesz eksportować swojego Snapa?</item>
+        <item>Jak chcesz eksportować swoje Snapy?</item>
+        <item>Jak chcesz eksportować swoje Snapy?</item>
+        <item>Jak chcesz eksportować swoje Snapy?</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item>Nie udało się dodać %d Snapa</item>
+        <item>Nie udało się dodać %d Snapów</item>
+        <item>Nie udało się dodać %d Snapów</item>
+        <item>Nie udało się dodać %d Snapów</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item>Oczekiwanie na dodanie %d Snapa...</item>
+        <item>Oczekiwanie na dodanie %dSnapów...</item>
+        <item>Oczekiwanie na dodanie %d Snapów...</item>
+        <item>Oczekiwanie na dodanie %d Snapów...</item>
+    </plurals>
+</resources>

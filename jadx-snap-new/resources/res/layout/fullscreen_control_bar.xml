@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <FrameLayout android:id="@+id/chat_button_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:id="@+id/fullscreen_bar_chat_button" android:background="@drawable/semi_transparent_circle_background" android:layout_width="@dimen/fullscreen_control_bar_button_size" android:layout_height="@dimen/fullscreen_control_bar_button_size" android:src="@drawable/chat_icon" android:scaleType="fitCenter"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/mic_button_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:id="@+id/fullscreen_bar_mic_button" android:background="@drawable/semi_transparent_circle_background" android:layout_width="@dimen/fullscreen_control_bar_button_size" android:layout_height="@dimen/fullscreen_control_bar_button_size" android:scaleType="fitCenter"/>
+    </FrameLayout>
+    <Space android:layout_gravity="center" android:layout_width="0dp" android:layout_height="@dimen/local_preview_large_size" android:layout_weight="1"/>
+    <FrameLayout android:id="@+id/video_button_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:id="@+id/fullscreen_bar_video_button" android:background="@drawable/semi_transparent_circle_background" android:layout_width="@dimen/fullscreen_control_bar_button_size" android:layout_height="@dimen/fullscreen_control_bar_button_size" android:scaleType="fitCenter"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/swap_camera_button_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:id="@+id/fullscreen_bar_swap_camera_button" android:background="@drawable/semi_transparent_circle_background" android:padding="@dimen/fullscreen_control_bar_button_padding" android:layout_width="@dimen/fullscreen_control_bar_button_size" android:layout_height="@dimen/fullscreen_control_bar_button_size" android:src="@drawable/swap_camera_button" android:scaleType="fitCenter"/>
+    </FrameLayout>
+</merge>

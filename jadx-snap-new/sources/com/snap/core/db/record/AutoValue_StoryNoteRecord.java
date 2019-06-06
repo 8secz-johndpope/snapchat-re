@@ -1,0 +1,143 @@
+package com.snap.core.db.record;
+
+import com.snap.core.db.column.StoryNoteType;
+
+final class AutoValue_StoryNoteRecord extends StoryNoteRecord {
+    private final long _id;
+    private final Boolean isFriendViewPublic;
+    private final boolean isSaved;
+    private final boolean isScreenShotted;
+    private final StoryNoteType noteType;
+    private final String snapId;
+    private final long storySnapRowId;
+    private final Long timestamp;
+    private final String viewer;
+
+    AutoValue_StoryNoteRecord(long j, String str, long j2, Long l, String str2, Boolean bool, boolean z, StoryNoteType storyNoteType, boolean z2) {
+        this._id = j;
+        if (str != null) {
+            this.snapId = str;
+            this.storySnapRowId = j2;
+            this.timestamp = l;
+            if (str2 != null) {
+                this.viewer = str2;
+                this.isFriendViewPublic = bool;
+                this.isScreenShotted = z;
+                this.noteType = storyNoteType;
+                this.isSaved = z2;
+                return;
+            }
+            throw new NullPointerException("Null viewer");
+        }
+        throw new NullPointerException("Null snapId");
+    }
+
+    public final long _id() {
+        return this._id;
+    }
+
+    public final boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj instanceof StoryNoteRecord) {
+            StoryNoteRecord storyNoteRecord = (StoryNoteRecord) obj;
+            if (this._id == storyNoteRecord._id() && this.snapId.equals(storyNoteRecord.snapId()) && this.storySnapRowId == storyNoteRecord.storySnapRowId()) {
+                Long l = this.timestamp;
+                if (l != null ? !l.equals(storyNoteRecord.timestamp()) : storyNoteRecord.timestamp() != null) {
+                    if (this.viewer.equals(storyNoteRecord.viewer())) {
+                        Boolean bool = this.isFriendViewPublic;
+                        if (bool != null ? !bool.equals(storyNoteRecord.isFriendViewPublic()) : storyNoteRecord.isFriendViewPublic() != null) {
+                            if (this.isScreenShotted == storyNoteRecord.isScreenShotted()) {
+                                StoryNoteType storyNoteType = this.noteType;
+                                if (storyNoteType != null ? !storyNoteType.equals(storyNoteRecord.noteType()) : storyNoteRecord.noteType() != null) {
+                                    if (this.isSaved == storyNoteRecord.isSaved()) {
+                                        return true;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    public final int hashCode() {
+        long j = this._id;
+        int hashCode = (((((int) (j ^ (j >>> 32))) ^ 1000003) * 1000003) ^ this.snapId.hashCode()) * 1000003;
+        long j2 = this.storySnapRowId;
+        hashCode = (hashCode ^ ((int) (j2 ^ (j2 >>> 32)))) * 1000003;
+        Long l = this.timestamp;
+        int i = 0;
+        hashCode = (((hashCode ^ (l == null ? 0 : l.hashCode())) * 1000003) ^ this.viewer.hashCode()) * 1000003;
+        Boolean bool = this.isFriendViewPublic;
+        int i2 = 1231;
+        hashCode = (((hashCode ^ (bool == null ? 0 : bool.hashCode())) * 1000003) ^ (this.isScreenShotted ? 1231 : 1237)) * 1000003;
+        StoryNoteType storyNoteType = this.noteType;
+        if (storyNoteType != null) {
+            i = storyNoteType.hashCode();
+        }
+        hashCode = (hashCode ^ i) * 1000003;
+        if (!this.isSaved) {
+            i2 = 1237;
+        }
+        return hashCode ^ i2;
+    }
+
+    public final Boolean isFriendViewPublic() {
+        return this.isFriendViewPublic;
+    }
+
+    public final boolean isSaved() {
+        return this.isSaved;
+    }
+
+    public final boolean isScreenShotted() {
+        return this.isScreenShotted;
+    }
+
+    public final StoryNoteType noteType() {
+        return this.noteType;
+    }
+
+    public final String snapId() {
+        return this.snapId;
+    }
+
+    public final long storySnapRowId() {
+        return this.storySnapRowId;
+    }
+
+    public final Long timestamp() {
+        return this.timestamp;
+    }
+
+    public final String toString() {
+        StringBuilder stringBuilder = new StringBuilder("StoryNoteRecord{_id=");
+        stringBuilder.append(this._id);
+        stringBuilder.append(", snapId=");
+        stringBuilder.append(this.snapId);
+        stringBuilder.append(", storySnapRowId=");
+        stringBuilder.append(this.storySnapRowId);
+        stringBuilder.append(", timestamp=");
+        stringBuilder.append(this.timestamp);
+        stringBuilder.append(", viewer=");
+        stringBuilder.append(this.viewer);
+        stringBuilder.append(", isFriendViewPublic=");
+        stringBuilder.append(this.isFriendViewPublic);
+        stringBuilder.append(", isScreenShotted=");
+        stringBuilder.append(this.isScreenShotted);
+        stringBuilder.append(", noteType=");
+        stringBuilder.append(this.noteType);
+        stringBuilder.append(", isSaved=");
+        stringBuilder.append(this.isSaved);
+        stringBuilder.append("}");
+        return stringBuilder.toString();
+    }
+
+    public final String viewer() {
+        return this.viewer;
+    }
+}

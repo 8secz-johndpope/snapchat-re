@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:layout_width="@dimen/sound_tool_drawer_width" android:layout_height="@dimen/sound_tool_drawer_height" android:layout_marginLeft="@dimen/sound_tool_drawer_left_margin">
+    <com.snap.previewtools.sound.ui.SoundToolDrawerView android:gravity="top" android:orientation="vertical" android:id="@+id/sound_tool_drawer_list" android:background="@drawable/sound_tool_drawer_background" android:paddingTop="@dimen/sound_tool_drawer_padding" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

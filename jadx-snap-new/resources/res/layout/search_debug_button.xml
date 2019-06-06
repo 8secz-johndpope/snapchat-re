@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:padding="@dimen/sc_search_thumbnail_radius" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/bug_button" android:visibility="gone" android:layout_width="@dimen/search_bug_button_image_size" android:layout_height="@dimen/search_bug_button_image_size" android:layout_marginBottom="@dimen/sc_search_thumbnail_radius" android:src="@drawable/bug" android:scaleType="fitCenter" android:alpha="0.5" android:layout_marginStart="@dimen/sc_search_thumbnail_radius"/>
+</FrameLayout>

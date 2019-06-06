@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.messaging.chat.ui.view.SwipeableMessageLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/chat_message_content_container" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" style="@style/chat_message_content_container">
+    <include layout="@layout/chat_message_timestamp"/>
+    <include layout="@layout/chat_message_color_bar"/>
+    <com.snap.messaging.chat.ui.view.ReplyLayout android:id="@+id/reply_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/batched_media_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.snap.imageloading.view.SnapImageView android:layout_gravity="center_vertical" android:background="@color/regular_grey" android:layout_width="match_parent" android:layout_height="@dimen/chat_batched_media_max_height"/>
+            <com.snap.imageloading.view.SnapImageView android:layout_gravity="center_vertical" android:background="@color/regular_grey" android:layout_width="match_parent" android:layout_height="@dimen/chat_batched_media_max_height"/>
+            <com.snap.imageloading.view.SnapImageView android:layout_gravity="center_vertical" android:background="@color/regular_grey" android:layout_width="match_parent" android:layout_height="@dimen/chat_batched_media_max_height"/>
+            <com.snap.imageloading.view.SnapImageView android:layout_gravity="center_vertical" android:background="@color/regular_grey" android:layout_width="match_parent" android:layout_height="@dimen/chat_batched_media_max_height"/>
+        </LinearLayout>
+    </com.snap.messaging.chat.ui.view.ReplyLayout>
+</com.snap.messaging.chat.ui.view.SwipeableMessageLinearLayout>

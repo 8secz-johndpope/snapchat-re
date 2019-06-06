@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/grid_frameable_container" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.snap.ui.view.RoundedCornerFrameLayout android:id="@+id/rounded_frame_layout" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <com.snap.imageloading.view.SnapImageView android:id="@+id/camera_roll_image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </com.snap.ui.view.RoundedCornerFrameLayout>
+    <com.snap.ui.view.LazyIconView android:id="@+id/selected_icon" android:visibility="invisible" android:layout_width="@dimen/selected_checkmark_size" android:layout_height="@dimen/selected_checkmark_size" android:layout_marginBottom="@dimen/default_gap" android:layout_marginEnd="@dimen/default_gap" app:hasOverlappingRendering="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.stickers.ui.views.infosticker.AutoScaleInfoStickerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/sticker_view_binding_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.stickers.ui.views.infosticker.InfoStickerView android:layout_gravity="center" android:id="@+id/sticker_view_binding_target" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</com.snap.stickers.ui.views.infosticker.AutoScaleInfoStickerView>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.imageloading.view.SnapImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/in_app_notification_logo_view" android:layout_width="@dimen/notification_icon_size" android:layout_height="@dimen/notification_icon_size" android:scaleType="centerCrop"/>

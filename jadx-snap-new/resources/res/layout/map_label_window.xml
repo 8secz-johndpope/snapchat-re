@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bubble_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <com.snap.ui.view.SnapFontTextView android:textSize="12sp" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120dp" android:minWidth="43dp" android:text="Me" android:maxLines="2" app:scFontWeight="1"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="10sp" android:textColor="#434a54" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/snippet" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300dp" android:text="X hrs ago" android:maxLines="1"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/bottom_arrow" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/map_bitmoji_bubble_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

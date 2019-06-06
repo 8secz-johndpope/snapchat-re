@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.ui.view.ScHeaderView android:layout_width="match_parent" android:layout_height="wrap_content" app:headerColorScheme="@color/regular_green" app:headerTitle="@string/settings_tfa_settings_header" app:showBackArrow="true" app:showBottomBorder="true"/>
+    <ScrollView android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.snap.ui.view.SnapFontTextView android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" android:layout_marginBottom="@dimen/default_gap_2x" android:text="@string/settings_tfa_setup_otp_explanation" style="@style/IdentitySettingsCopyText"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/tfa_setup_otp_automatic_section" android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeightLarge">
+                <com.snap.ui.view.SnapFontTextView android:paddingTop="@dimen/default_gap_quarter" android:paddingBottom="@dimen/default_gap_quarter" android:text="@string/settings_tfa_setup_otp_automatic_option" style="@style/IdentitySettingsItemName"/>
+                <com.snap.ui.view.SnapFontTextView android:paddingTop="@dimen/default_gap_quarter" android:paddingBottom="@dimen/default_gap_quarter" android:text="@string/settings_tfa_setup_otp_automatic_explanation" style="@style/IdentitySettingsItemSubtext"/>
+            </LinearLayout>
+            <include layout="@layout/list_separator"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/tfa_setup_otp_manual_section" android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeightLarge">
+                <com.snap.ui.view.SnapFontTextView android:paddingTop="@dimen/default_gap_quarter" android:paddingBottom="@dimen/default_gap_quarter" android:text="@string/settings_tfa_setup_otp_manual_option" style="@style/IdentitySettingsItemName"/>
+                <com.snap.ui.view.SnapFontTextView android:paddingTop="@dimen/default_gap_quarter" android:paddingBottom="@dimen/default_gap_quarter" android:text="@string/settings_tfa_setup_otp_manual_explanation" style="@style/IdentitySettingsItemSubtext"/>
+            </LinearLayout>
+            <include layout="@layout/list_separator"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/tfa_setup_otp_find_app_section" android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeightLarge">
+                <com.snap.ui.view.SnapFontTextView android:paddingTop="@dimen/default_gap_quarter" android:paddingBottom="@dimen/default_gap_quarter" android:text="@string/settings_tfa_setup_otp_find_app_option" style="@style/IdentitySettingsItemName"/>
+                <com.snap.ui.view.SnapFontTextView android:paddingTop="@dimen/default_gap_quarter" android:paddingBottom="@dimen/default_gap_quarter" android:text="@string/settings_tfa_setup_otp_find_app_explanation" style="@style/IdentitySettingsItemSubtext"/>
+            </LinearLayout>
+            <include layout="@layout/list_separator"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

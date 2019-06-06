@@ -1,0 +1,11 @@
+package defpackage;
+
+/* renamed from: aayg */
+public enum aayg {
+    SEARCH_RESULTS_PAGE,
+    SNAP_ATTACHMENT_PREVIEW,
+    SNAP_ATTACHMENT_SEARCH_DEFAULT_PAGE,
+    SNAP_PREVIEW,
+    SNAP_ASSOCIATED_STORIES_PAGE,
+    CONTEXT_MENU
+}

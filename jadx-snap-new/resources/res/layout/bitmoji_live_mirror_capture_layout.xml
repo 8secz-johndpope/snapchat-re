@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="left|center_horizontal|clip_vertical|start" android:id="@+id/exit_button" android:layout_width="@dimen/gender_picker_exit_button_size" android:layout_height="@dimen/gender_picker_exit_button_size" android:layout_marginTop="@dimen/gender_picker_exit_button_margin" android:src="@drawable/close_with_shadow" android:layout_marginStart="@dimen/gender_picker_exit_button_margin"/>
+</FrameLayout>

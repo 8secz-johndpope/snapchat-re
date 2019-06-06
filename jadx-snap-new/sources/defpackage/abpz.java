@@ -1,0 +1,98 @@
+package defpackage;
+
+/* renamed from: abpz */
+public enum abpz {
+    OK_HAND_SIGN(128076, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -116}),
+    THUMBS_UP_SIGN(128077, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -115}),
+    THUMBS_DOWN_SIGN(128078, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -114}),
+    CLAPPING_HANDS_SIGN(128079, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -113}),
+    WHITE_UP_POINTING_BACKHAND_INDEX(128070, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -122}),
+    WHITE_LEFT_POINTING_BACKHAND_INDEX(128072, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -120}),
+    WHITE_RIGHT_POINTING_BACKHAND_INDEX(128073, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -119}),
+    WHITE_UP_POINTING_INDEX(9757, new byte[]{(byte) -30, (byte) -104, (byte) -99}),
+    WARNING(9888, new byte[]{(byte) -30, (byte) -102, (byte) -96}),
+    VICTORY_HAND(9996, new byte[]{(byte) -18, Byte.MIN_VALUE, (byte) -111}),
+    GHOST(128123, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -69}),
+    YELLOW_HEART(128155, new byte[]{(byte) -16, (byte) -97, (byte) -110, (byte) -101}),
+    FIRE(128293, new byte[]{(byte) -16, (byte) -97, (byte) -108, (byte) -91}),
+    POOP(128169, new byte[]{(byte) -16, (byte) -97, (byte) -110, (byte) -87}),
+    CAMERA(128249, new byte[]{(byte) -16, (byte) -97, (byte) -109, (byte) -71}),
+    CAKE(127874, new byte[]{(byte) -16, (byte) -97, (byte) -114, (byte) -126}),
+    CONSTRUCTION_WORKER(128119, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -73}),
+    MISCELLANEOUS_TECHNICAL(9200, new byte[]{(byte) -30, (byte) -113, (byte) -80}),
+    PARTY_POPPER(127881, new byte[]{(byte) -16, (byte) -97, (byte) -114, (byte) -119}),
+    EMAIL(128231, new byte[]{(byte) -16, (byte) -97, (byte) -109, (byte) -89}),
+    MAILBOX(128236, new byte[]{(byte) -16, (byte) -97, (byte) -109, (byte) -84}),
+    DESERT_ISLAND(127965, new byte[]{(byte) -16, (byte) -97, (byte) -113, (byte) -99}),
+    FAMILY(128106, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -86}),
+    WAVING_HAND(128075, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -117}),
+    DOG_FACE(128054, new byte[]{(byte) -16, (byte) -97, (byte) -112, (byte) -74}),
+    MICROPHONE(127908, new byte[]{(byte) -16, (byte) -97, (byte) -114, (byte) -92}),
+    TELEPHONE_RECEIVER(128222, new byte[]{(byte) -16, (byte) -97, (byte) -109, (byte) -98}),
+    MOBILE_PHONE_WITH_ARROW(128242, new byte[]{(byte) -16, (byte) -97, (byte) -109, (byte) -78}),
+    LOVE_LETTER(128140, new byte[]{(byte) -16, (byte) -97, (byte) -110, (byte) -116}),
+    GRINNING_FACE_WITH_SMILING_EYES(128513, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -127}),
+    SMILING_FACE_WITH_SMILING_EYES(128522, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -118}),
+    SMILING_FACE_WITH_SUNGLASSES(128526, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -114}),
+    SMILING_FACE_WITH_OPEN_MOUTH(128515, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -125}),
+    SMIRKING_FACE(128527, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -113}),
+    NEUTRAL_FACE(128528, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -112}),
+    CONFUSED_FACE(128533, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -107}),
+    DISAPPOINTED_FACE(128542, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -98}),
+    SCREAMING_FACE(128561, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -79}),
+    ASTONISHED_FACE(128562, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -78}),
+    FLUSHED_FACE(128563, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -77}),
+    WEARY_FACE(128553, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -87}),
+    GRIMACING_FACE(128556, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -84}),
+    WHITE_SMILING_FACE(9786, new byte[]{(byte) -30, (byte) -104, (byte) -70}),
+    WORRIED_FACE(128543, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -97}),
+    FACE_WITH_NO_GOOD_GESTURE(128581, new byte[]{(byte) -16, (byte) -97, (byte) -103, (byte) -123}),
+    SPEAK_NO_EVIL_MONKEY(128586, new byte[]{(byte) -16, (byte) -97, (byte) -103, (byte) -120}),
+    SEE_NO_EVIL_MONKEY(128584, new byte[]{(byte) -16, (byte) -97, (byte) -103, (byte) -120}),
+    HAPPY_PERSON_RAISING_ONE_HAND(128587, new byte[]{(byte) -16, (byte) -97, (byte) -103, (byte) -117}),
+    FACE_WITH_COLD_SWEAT(128531, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -109}),
+    FACE_WITH_OPEN_MOUTH_AND_COLD_SWEAT(128560, new byte[]{(byte) -16, (byte) -97, (byte) -104, (byte) -80}),
+    THINKING_FACE(129300, new byte[]{(byte) -16, (byte) -97, (byte) -92, (byte) -108}),
+    HUGGING_FACE(129303, new byte[]{(byte) -16, (byte) -97, (byte) -92, (byte) -105}),
+    UPSIDE_DOWN_SMILEY_FACE(128579, new byte[]{(byte) -16, (byte) -97, (byte) -103, (byte) -125}),
+    HEAVY_BLACK_HEART(10084, new byte[]{(byte) -30, (byte) -99, (byte) -92}),
+    WHITE_MEDIUM_STAR(11088, new byte[]{(byte) -30, (byte) -83, (byte) -112}),
+    EXCLAMATION_MARK(10071, new byte[]{(byte) -30, (byte) -99, (byte) -105}),
+    SAVE_FLOPPY_DISK(128190, new byte[]{(byte) -16, (byte) -97, (byte) -110, (byte) -66}),
+    FULL_MOON_SMILE_FACE(127773, new byte[]{(byte) -16, (byte) -97, (byte) -116, (byte) -99}),
+    CLOSED_LOCK_WITH_KEY(128272, new byte[]{(byte) -16, (byte) -97, (byte) -108, (byte) -112}),
+    EYEGLASSES(128083, new byte[]{(byte) -16, (byte) -97, (byte) -111, (byte) -109}),
+    BLACK_SUN_WITH_RAYS(9728, new byte[]{(byte) -30, (byte) -104, Byte.MIN_VALUE}),
+    HIGH_BRIGHTNESS_SYMBOL(128262, new byte[]{(byte) -16, (byte) -97, (byte) -108, (byte) -122}),
+    SUNRISE(127749, new byte[]{(byte) -16, (byte) -97, (byte) -116, (byte) -123}),
+    SHIELD(128737, new byte[]{(byte) -16, (byte) -97, (byte) -101, (byte) -95}),
+    ARIES(9800, new byte[]{(byte) -30, (byte) -103, (byte) -120}),
+    TAURUS(9801, new byte[]{(byte) -30, (byte) -103, (byte) -119}),
+    GEMINI(9802, new byte[]{(byte) -30, (byte) -103, (byte) -118}),
+    CANCER(9803, new byte[]{(byte) -30, (byte) -103, (byte) -117}),
+    LEO(9804, new byte[]{(byte) -30, (byte) -103, (byte) -116}),
+    VIRGO(9805, new byte[]{(byte) -30, (byte) -103, (byte) -115}),
+    LIBRA(9806, new byte[]{(byte) -30, (byte) -103, (byte) -114}),
+    SCORPIUS(9807, new byte[]{(byte) -30, (byte) -103, (byte) -113}),
+    SAGITTARIUS(9808, new byte[]{(byte) -30, (byte) -103, (byte) -112}),
+    CAPRICORN(9809, new byte[]{(byte) -30, (byte) -103, (byte) -111}),
+    AQUARIUS(9810, new byte[]{(byte) -30, (byte) -103, (byte) -110}),
+    PISCES(9811, new byte[]{(byte) -30, (byte) -103, (byte) -109}),
+    LOCK(128274, new byte[]{(byte) -16, (byte) -97, (byte) -108, (byte) -110}),
+    OPEN_LOCK(128275, new byte[]{(byte) -16, (byte) -97, (byte) -108, (byte) -109}),
+    MEMO(128221, new byte[]{(byte) -18, (byte) -116, (byte) -127}),
+    OPEN_BOOK(128214, new byte[]{(byte) -18, (byte) -123, (byte) -120}),
+    LATIN_UPPERCASE(128288, new byte[]{(byte) -16, (byte) -97, (byte) -108, (byte) -96});
+    
+    private final byte[] mBytes;
+    final int mUnicode;
+
+    private abpz(int i, byte[] bArr) {
+        this.mUnicode = i;
+        this.mBytes = bArr;
+    }
+
+    public final int a() {
+        return this.mUnicode;
+    }
+}

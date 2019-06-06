@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="@dimen/default_gap_2x" android:paddingEnd="@dimen/default_gap_2x">
+    <include android:id="@+id/all_friends_section" layout="@layout/location_sharing_audience_row"/>
+    <include layout="@layout/merge_list_separator"/>
+    <include android:id="@+id/blacklist_friends_section" layout="@layout/location_sharing_audience_row"/>
+    <include layout="@layout/merge_list_separator"/>
+    <include android:id="@+id/custom_friends_section" layout="@layout/location_sharing_audience_row"/>
+    <include layout="@layout/merge_list_separator"/>
+</LinearLayout>

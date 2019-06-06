@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/hova_page" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/neon_header_layout" android:clipChildren="false" style="@style/neon_header_container">
+        <ImageView android:layout_gravity="start" android:id="@+id/neon_header_back_button" style="@style/neon_header_back_white_search"/>
+        <ImageView android:id="@+id/hova_header_search_icon" android:src="@drawable/neon_header_search_stroked_icon" android:contentDescription="@string/lens_explorer_title" style="@style/hova_header_icon_search_icon"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/neon_header_title" android:text="@string/lens_explorer_title" style="@style/hova_header_text_camera"/>
+    </LinearLayout>
+</FrameLayout>

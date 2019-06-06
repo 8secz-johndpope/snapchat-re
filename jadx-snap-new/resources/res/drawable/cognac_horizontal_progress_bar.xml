@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center" android:id="@android:id/background">
+        <shape android:tint="?attr/colorControlNormal" android:shape="rectangle">
+            <corners android:radius="@dimen/default_gap"/>
+            <size android:height="6dp"/>
+            <solid android:color="@color/white_thirty_opacity"/>
+        </shape>
+    </item>
+    <item android:gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center" android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <shape android:tint="?attr/colorControlActivated" android:shape="rectangle">
+                <corners android:radius="@dimen/default_gap"/>
+                <size android:height="6dp"/>
+                <solid android:color="@color/white"/>
+            </shape>
+        </scale>
+    </item>
+</layer-list>

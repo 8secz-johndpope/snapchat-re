@@ -1,0 +1,19 @@
+package defpackage;
+
+/* renamed from: aabd */
+public enum aabd {
+    IOS_NATIVE,
+    IOS_WEB_DESKTOP,
+    IOS_WEB_MOBILE,
+    ANDROID_NATIVE,
+    ANDROID_WEB_DESKTOP,
+    ANDROID_WEB_MOBILE,
+    OSX_WEB_DESKTOP,
+    OSX_WEB_MOBILE,
+    WINDOWS_WEB_DESKTOP,
+    WINDOWS_WEB_MOBILE,
+    LINUX_WEB_DESKTOP,
+    LINUX_WEB_MOBILE,
+    LENSSTUDIO,
+    SNAPCAMERA
+}

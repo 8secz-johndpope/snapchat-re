@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.identity.loginsignup.ui.view.BasicLoginSignupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/forgot_password_set_phone" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" app:buttonText="@string/continue_next" app:pendingText="@string/sending">
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/phone_form_title" android:text="@string/signup_phone_prompt" style="@style/LoginSignupPageTitle"/>
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/phone_form_hint" android:text="@string/signup_phone_hint" style="@style/IdentityFieldHint"/>
+    <com.snap.identity.ui.shared.phonenumber.PhonePickerView android:id="@+id/phone_picker" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/phone_error_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/IdentityFieldError"/>
+</com.snap.identity.loginsignup.ui.view.BasicLoginSignupLayout>

@@ -1,0 +1,17 @@
+package defpackage;
+
+import com.snap.impala.model.client.ImpalaHttpInterface;
+
+/* compiled from: lambda */
+/* renamed from: -$$Lambda$kgq$AUmKk79fporKDQQyngtNAjZV36I */
+public final /* synthetic */ class -$$Lambda$kgq$AUmKk79fporKDQQyngtNAjZV36I implements ajfc {
+    private final /* synthetic */ kgq f$0;
+
+    public /* synthetic */ -$$Lambda$kgq$AUmKk79fporKDQQyngtNAjZV36I(kgq kgq) {
+        this.f$0 = kgq;
+    }
+
+    public final Object apply(Object obj) {
+        return this.f$0.b((ImpalaHttpInterface) obj);
+    }
+}

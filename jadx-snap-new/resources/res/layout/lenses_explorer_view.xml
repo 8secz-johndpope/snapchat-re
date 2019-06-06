@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.explorer.DefaultLensExplorerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/LensExplorerTheme" android:id="@+id/lenses_explorer_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/background" android:background="@drawable/page_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/neon_header_height"/>
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@+id/container" android:paddingTop="@dimen/neon_header_height" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="3">
+            <android.support.constraint.ConstraintLayout android:background="@drawable/page_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ViewStub android:id="@+id/lens_explorer_subscription_feed_view_stub" android:visibility="gone" android:inflatedId="@+id/lens_explorer_subscription_feed_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/lenses_explorer_community_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_quarter" android:text="@string/feed_section_title" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/lens_explorer_subscription_feed_view" style="@style/header"/>
+            </android.support.constraint.ConstraintLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <ViewStub android:id="@+id/lens_explorer_community_feed_view_stub" android:background="@color/white" android:visibility="gone" android:inflatedId="@+id/lens_explorer_community_feed_view" android:layout_width="match_parent" android:layout_height="0dp" app:layout_behavior="@string/scrolling_behavior"/>
+    <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:id="@+id/lenses_explorer_loading_spinner" android:layout_width="@dimen/lens_explorer_loading_spinner_size" android:layout_height="@dimen/lens_explorer_loading_spinner_size"/>
+    <View android:layout_gravity="top" android:id="@+id/header_gradient" android:background="@drawable/neon_top_gradient_background" android:layout_width="match_parent" android:layout_height="@dimen/neon_header_gradient_height"/>
+</com.snap.lenses.explorer.DefaultLensExplorerView>

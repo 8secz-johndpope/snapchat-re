@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snapchat.android.framework.ui.views.RoundedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/profile_saved_media_item_background" android:layout_width="match_parent" android:layout_height="match_parent" app:corner_radius="@dimen/profile_saved_media_carousel_thumbnail_corner_radius">
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/media_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+</com.snapchat.android.framework.ui.views.RoundedFrameLayout>

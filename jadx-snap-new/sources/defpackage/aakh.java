@@ -1,0 +1,14 @@
+package defpackage;
+
+/* renamed from: aakh */
+public enum aakh {
+    NOTIFICATION_PERMISSION,
+    BIRTHDAY_PARTY,
+    CLEAR_CACHE,
+    PHONE_NUMBER_VERIFICATION,
+    SUICIDE_PREVENTION,
+    CONTACT_BOOK,
+    LOGIN_VERIFICATION,
+    PRIVACY_SETTINGS,
+    EMAIL_VERIFICATION
+}

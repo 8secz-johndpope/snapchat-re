@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.ui.view.ScHeaderView android:layout_width="match_parent" android:layout_height="wrap_content" app:headerColorScheme="@color/regular_green" app:headerTitle="@string/settings_tfa_settings_header" app:showBackArrow="true" app:showBottomBorder="true"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x">
+            <com.snap.ui.view.SnapFontTextView android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" android:layout_marginBottom="@dimen/default_gap_2x" android:text="@string/settings_tfa_setup_otp_verification_explanation" style="@style/IdentitySettingsCopyText"/>
+            <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.snap.ui.view.SnapFontEditText android:id="@+id/tfa_setup_otp_verification_code" android:background="@drawable/holo_edit_text_black_selector" android:layout_width="match_parent" android:layout_height="@dimen/ui_element_unit" android:layout_marginTop="@dimen/default_gap" android:hint="@string/settings_tfa_setup_otp_verification_code_hint" android:maxLength="60" android:inputType="number" style="@style/Widget.Holo.EditText">
+                    <requestFocus/>
+                </com.snap.ui.view.SnapFontEditText>
+                <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/tfa_setup_otp_verification_error_red_x" style="@style/IdentityErrorRedX"/>
+            </FrameLayout>
+            <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/registration_error_message_text_size" android:textColor="@color/error_red" android:id="@+id/tfa_setup_otp_verification_error_message" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.snap.identity.ui.settings.shared.SettingsStatefulButton android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/tfa_setup_otp_verification_continue_button" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/registration_continue_button_height" app:buttonText="@string/registration_continue" style="@style/IdentitySettingsContinueButton"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/item" android:layout_width="match_parent" android:layout_height="@dimen/ff_feed_list_item_height">
+    <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:layout_width="@dimen/ff_loading_spinner_size" android:layout_height="@dimen/ff_loading_spinner_size"/>
+</FrameLayout>

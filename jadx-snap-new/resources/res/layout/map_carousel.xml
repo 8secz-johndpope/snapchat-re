@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:id="@+id/map_carousel_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/map_carousel_top_spring" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="0dp" app:behavior_spring_orientation="0" app:layout_behavior="com.snapchat.map.util.OverScrollerSpringBehavior"/>
+    <com.snapchat.map.feature.carousel.MapCarouselView android:id="@+id/map_carousel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale"/>
+    <FrameLayout android:id="@+id/map_carousel_bottom_spring" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="0dp" app:behavior_spring_damping="0.1" app:behavior_spring_orientation="1" app:layout_behavior="com.snapchat.map.util.OverScrollerSpringBehavior"/>
+</android.support.design.widget.CoordinatorLayout>

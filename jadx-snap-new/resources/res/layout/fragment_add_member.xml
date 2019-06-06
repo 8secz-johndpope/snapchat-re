@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.StackingLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/content_container" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/statusbar_inset" android:background="@color/white" android:layout_width="match_parent" android:layout_height="0dp" app:layout_affinity="3"/>
+    <View android:id="@+id/navbar_inset" android:background="@color/black" android:layout_width="match_parent" android:layout_height="0dp" app:layout_affinity="4"/>
+    <FrameLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/neon_header_height" app:layout_affinity="3">
+        <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_default" android:textColor="@color/regular_blue" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_member_header_text"/>
+        <ImageButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/dismiss_chat_creation_btn" android:background="@null" android:layout_width="@dimen/neon_header_height" android:layout_height="@dimen/neon_header_height" android:src="@drawable/chat_creation_dismiss_icon" android:scaleType="centerInside"/>
+    </FrameLayout>
+    <View android:id="@+id/create_mischief_divider" android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="@dimen/recipient_bar_divider_width" app:layout_affinity="3"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/create_chat_recipient_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/recipient_bar_start_margin" app:layout_affinity="3">
+        <com.snap.ui.view.ScrollViewWithMaxHeight android:paddingTop="@dimen/recipient_bar_pill_list_margins" android:paddingBottom="@dimen/recipient_bar_pill_list_margins" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:maxHeight="@dimen/recipient_bar_max_height">
+            <com.snap.messaging.createchat.ui.view.CreateChatRecipientBarView android:id="@+id/create_chat_recipients" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginEnd="@dimen/recipient_bar_pill_list_margins"/>
+        </com.snap.ui.view.ScrollViewWithMaxHeight>
+    </LinearLayout>
+    <View android:id="@+id/below_recipient_bar_divider" android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="@dimen/recipient_bar_divider_width" app:layout_affinity="3"/>
+    <View android:id="@+id/keyboard_placeholder" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="0dp" app:layout_affinity="4"/>
+    <TextView android:textSize="@dimen/create_chat_text_size" android:textColor="@color/white" android:gravity="center" android:id="@+id/add_member_button" android:background="@color/regular_blue" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/create_chat_button_height" android:text="@string/add_member_button_text" android:includeFontPadding="false" app:layout_affinity="4"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_affinity="3">
+        <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingEnd="@dimen/default_gap_2_5x"/>
+        <xyz.danoz.recyclerviewfastscroller.vertical.VerticalRecyclerViewFastScroller android:layout_gravity="end" android:id="@+id/fast_scroller" android:background="@color/white" android:layout_width="24dp" android:layout_height="match_parent" android:paddingEnd="@dimen/default_gap_half" app:rfs_barColor="@color/off_white" app:rfs_handleColor="@color/regular_blue"/>
+    </FrameLayout>
+</com.snap.ui.view.StackingLayout>

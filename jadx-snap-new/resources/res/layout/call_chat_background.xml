@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_gravity="bottom" android:id="@+id/elm_white_background" android:background="@drawable/elm_white_background_gradient" android:layout_width="match_parent" android:layout_height="@dimen/expanded_background_gradient_height" android:alpha="0"/>
+    <View android:id="@+id/call_chat_overlay" android:background="@color/black_forty_opacity" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+</merge>

@@ -1,0 +1,35 @@
+package defpackage;
+
+import java.util.Locale;
+
+/* renamed from: aikq */
+public enum aikq {
+    USERID(r2),
+    VERIFICATION_CODE(r3),
+    UNRECOGNIZED_VALUE(r4);
+    
+    private final String value;
+
+    private aikq(String str) {
+        this.value = str;
+    }
+
+    public static aikq a(String str) {
+        if (str == null) {
+            return UNRECOGNIZED_VALUE;
+        }
+        try {
+            return aikq.valueOf(str.toUpperCase(Locale.US));
+        } catch (Exception unused) {
+            return UNRECOGNIZED_VALUE;
+        }
+    }
+
+    public final String a() {
+        return this.value;
+    }
+
+    public final String toString() {
+        return this.value;
+    }
+}

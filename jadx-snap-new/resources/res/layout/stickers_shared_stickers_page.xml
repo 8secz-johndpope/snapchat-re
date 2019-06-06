@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/page_loading_spinner" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/stickers_sticker_picker_sticker_progressbar"/>
+    </FrameLayout>
+    <com.snap.stickers.ui.views.StickersRecyclerView android:id="@+id/stickers_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

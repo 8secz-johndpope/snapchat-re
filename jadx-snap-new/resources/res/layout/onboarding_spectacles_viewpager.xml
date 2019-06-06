@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="top" android:orientation="vertical" android:id="@+id/onboarding_view" android:background="@color/snapchat_yellow" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10">
+        <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:id="@+id/onboarding_video_loading_spinner" android:layout_width="40dp" android:layout_height="40dp" app:loading_spinner_color="@color/black"/>
+        <com.snap.opera.shared.view.TextureVideoView android:id="@+id/onboarding_video_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.snap.opera.shared.view.TextureVideoView android:id="@+id/onboarding_video_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.snap.opera.shared.view.TextureVideoView android:id="@+id/onboarding_video_3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.snap.opera.shared.view.TextureVideoView android:id="@+id/onboarding_video_4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/onboarding_back_arrow" android:padding="@dimen/default_gap" android:visibility="gone" android:layout_width="28dp" android:layout_height="50dp" android:layout_marginLeft="@dimen/default_gap" android:layout_marginTop="@dimen/default_gap_3x" android:src="@drawable/back_button_black" android:layout_marginStart="@dimen/default_gap"/>
+    </FrameLayout>
+    <android.support.v4.view.ViewPager android:layout_gravity="center" android:id="@+id/onboarding_view_pager" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="7"/>
+</LinearLayout>

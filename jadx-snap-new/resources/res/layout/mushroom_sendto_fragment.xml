@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/content_container" android:background="#f22c3137" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="locale" android:layoutDirection="locale">
+    <com.snap.ui.view.StackingLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/statusbar_inset" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="0dp" app:layout_affinity="3"/>
+        <View android:id="@+id/navbar_inset" android:background="@color/black" android:layout_width="match_parent" android:layout_height="0dp" app:layout_affinity="4"/>
+        <View android:id="@+id/bottom_margin_for_keyboard" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0dp" app:layout_affinity="4"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_affinity="3">
+            <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view" android:paddingBottom="@dimen/send_to_recycler_margin_start" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+            <com.snap.ui.view.scrollbar.SnapScrollBar android:layout_gravity="end" android:id="@+id/scroll_bar" android:paddingTop="@dimen/default_gap_half" android:paddingRight="@dimen/default_gap_half" android:paddingBottom="@dimen/default_gap" android:visibility="gone" android:clickable="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/send_to_scroll_bar_top_margin"/>
+            <ViewStub android:layout_gravity="right" android:id="@+id/sendto_scroll_bar_v2_viewstub" android:layout="@layout/send_to_scroll_bar_v2" android:inflatedId="@+id/scrollbar_v2" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/send_to_scroll_bar_top_margin" android:layout_marginBottom="@dimen/send_to_scroll_bar_bottom_margin"/>
+            <ViewStub android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/bottom_panel_viewstub" android:layout="@layout/send_to_bottom_panel_layout" android:inflatedId="@+id/bottom_panel_view" android:layout_width="match_parent" android:layout_height="@dimen/send_to_send_bar_height"/>
+        </FrameLayout>
+    </com.snap.ui.view.StackingLayout>
+    <com.snap.messaging.sendto.internal.ui.view.MushroomSendToActionBarView android:id="@+id/top_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layoutDirection="ltr"/>
+</FrameLayout>

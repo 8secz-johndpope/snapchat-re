@@ -1,0 +1,30 @@
+package defpackage;
+
+/* renamed from: aacw */
+public enum aacw {
+    NONE,
+    VIEW_FINDER,
+    FLIP_BTN,
+    NIGHT_BTN,
+    FLASH_BTN,
+    TOOLBAR_EXPAND_BTN,
+    TOOLBAR_COLLAPSE_BTN,
+    GRID_BTN,
+    TIMER_BTN,
+    PORTRAIT_BTN,
+    BATCH_BTN,
+    LENS_OPEN_BTN,
+    LENS_CLOSE_BTN,
+    TAKE_SNAP_BTN,
+    HFR_LOCK_BTN,
+    HFR_CANCEL_BTN,
+    TAKE_SNAP_STOP_BTN,
+    CAPTION_TEXT,
+    ADD_FRIENDS_BTN,
+    SEARCH_BAR,
+    PROFILE_BTN,
+    FF_BTN,
+    MEMORIES_BTN,
+    DF_BTN,
+    LENS_EXPLORE_BTN
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginStart="4dp">
+    <com.snap.ui.view.StackingLayout android:orientation="horizontal" android:id="@+id/item" android:layout_width="match_parent" android:layout_height="@dimen/send_to_header_height">
+        <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/send_to_header_primary_text_size" android:textColor="@color/white" android:id="@+id/primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:layout_affinity="5" app:layout_gravity="center_vertical" app:scFontWeight="2"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/send_to_header_secondary_text_size" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/secondary" android:layout_width="wrap_content" android:layout_height="match_parent" android:includeFontPadding="false" android:drawablePadding="3dp" android:drawableStart="@drawable/send_to_stories_section_header_new_story_plus" app:layout_affinity="6" app:scFontWeight="1"/>
+    </com.snap.ui.view.StackingLayout>
+    <com.snap.ui.view.SnapFontTextView android:textColor="@color/white" android:id="@+id/send_to_header_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6dp" android:layout_marginBottom="4dp"/>
+</LinearLayout>

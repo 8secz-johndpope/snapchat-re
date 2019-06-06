@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/lenses_camera_locked_composite_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/lenses_camera_locked_cta_view_stub" android:inflatedId="@+id/lenses_camera_locked_cta_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

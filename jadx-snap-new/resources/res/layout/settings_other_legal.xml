@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/default_gap_2x" android:layout_marginRight="@dimen/default_gap_2x">
+    <TextView android:gravity="center_vertical" android:id="@+id/settings_licenses" android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeight" android:text="@string/settings_licenses" style="@style/settings_subpage_item"/>
+    <include layout="@layout/list_separator"/>
+    <TextView android:gravity="center_vertical" android:id="@+id/settings_odgeofilter_terms_of_service" android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeight" android:text="@string/settings_custom_creative_tools_terms_of_service" style="@style/settings_subpage_item"/>
+    <include layout="@layout/list_separator"/>
+</LinearLayout>

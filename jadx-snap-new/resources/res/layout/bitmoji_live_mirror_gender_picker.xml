@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/live_mirror_gender_picker_icon_marginBottom" android:baselineAligned="false">
+        <com.snap.bitmoji.ui.avatar.custom.GenderPickerRatioLayout android:layout_gravity="bottom" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="50" android:layout_marginStart="@dimen/live_mirror_gender_picker_icon_marginOutside" android:layout_marginEnd="@dimen/live_mirror_gender_picker_icon_marginInside" app:fixByWidth="true">
+            <com.snap.bitmoji.ui.avatar.custom.GenderPickerCircleView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/female_background" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bitmoji_gender_picker_circle_background"/>
+            <com.snap.bitmoji.ui.avatar.custom.GenderPickerSquareTopRoundBottomLayout android:layout_gravity="center_horizontal" android:id="@+id/female_button" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@+id/female_image" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/gender_female"/>
+            </com.snap.bitmoji.ui.avatar.custom.GenderPickerSquareTopRoundBottomLayout>
+        </com.snap.bitmoji.ui.avatar.custom.GenderPickerRatioLayout>
+        <com.snap.bitmoji.ui.avatar.custom.GenderPickerRatioLayout android:layout_gravity="bottom" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="50" android:layout_marginStart="@dimen/live_mirror_gender_picker_icon_marginInside" android:layout_marginEnd="@dimen/live_mirror_gender_picker_icon_marginOutside" app:fixByWidth="true">
+            <com.snap.bitmoji.ui.avatar.custom.GenderPickerCircleView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/male_background" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bitmoji_gender_picker_circle_background"/>
+            <com.snap.bitmoji.ui.avatar.custom.GenderPickerSquareTopRoundBottomLayout android:layout_gravity="center_horizontal" android:id="@+id/male_button" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@+id/male_image" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/gender_male"/>
+            </com.snap.bitmoji.ui.avatar.custom.GenderPickerSquareTopRoundBottomLayout>
+        </com.snap.bitmoji.ui.avatar.custom.GenderPickerRatioLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="left|center_horizontal|clip_vertical|start" android:id="@+id/exit_button" android:layout_width="@dimen/gender_picker_exit_button_size" android:layout_height="@dimen/gender_picker_exit_button_size" android:layout_marginTop="@dimen/gender_picker_exit_button_margin" android:src="@drawable/close_with_shadow" android:layout_marginStart="@dimen/gender_picker_exit_button_margin"/>
+</FrameLayout>

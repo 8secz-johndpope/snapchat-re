@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/map_zoom_slider" android:paddingTop="100dp" android:visibility="invisible" android:layout_width="@dimen/total_slider_width" android:layout_height="match_parent" android:layout_alignParentRight="true">
+    <View android:layout_gravity="center_horizontal" android:id="@+id/touch_bar_view" android:background="@color/map_white_forty_opacity" android:clickable="false" android:layout_width="@dimen/touch_bar_view_width" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true"/>
+    <FrameLayout android:id="@+id/touch_bar" android:layout_width="48dp" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <com.snapchat.map.feature.slider.ScalingZoomSliderIndicatorView android:id="@+id/emoji_container" android:clickable="false" android:layout_width="@dimen/emoji_container_max_width_with_shadow" android:layout_height="@dimen/emoji_container_height_with_shadow"/>
+    <ImageView android:id="@+id/emoji_image_view" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginLeft="5dp" android:adjustViewBounds="true"/>
+</RelativeLayout>

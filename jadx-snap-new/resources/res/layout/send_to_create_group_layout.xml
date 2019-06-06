@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/send_to_action_bar_create_group_button" android:visibility="gone" android:layout_width="@dimen/send_to_action_bar_button_width" android:layout_height="@dimen/neon_header_button_size" android:src="@drawable/send_to_create_group" android:paddingStart="8dp" android:paddingEnd="8dp"/>

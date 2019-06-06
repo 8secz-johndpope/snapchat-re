@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center" android:id="@+id/circular_notification_background" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/profile_badge_circle_background"/>
+    <com.snap.ui.view.SnapFontTextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@+id/circular_notification_count" android:paddingBottom="@dimen/neon_header_circular_notification_shadow_offset" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:includeFontPadding="false" app:scFontWeight="2"/>
+</merge>

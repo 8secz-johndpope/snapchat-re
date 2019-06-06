@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/neon_header_layout" style="@style/neon_header_container">
+    <com.snap.hova.HovaAvatarContainerView android:id="@+id/neon_header_avatar_container" style="@style/hova_avatar_container_view"/>
+    <ImageView android:id="@+id/hova_header_search_icon" android:src="@drawable/neon_header_search_icon" android:contentDescription="@string/discover_title" style="@style/hova_header_icon_search_icon"/>
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/neon_header_title" android:text="@string/discover_title" style="@style/hova_header_text"/>
+    <com.snap.hova.HovaAddFriendsButtonContainerView android:id="@+id/neon_add_friend_button_container" style="@style/hova_add_friend_button_style_discoverfeed_page"/>
+</LinearLayout>

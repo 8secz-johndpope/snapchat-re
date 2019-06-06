@@ -1,0 +1,66 @@
+package defpackage;
+
+import defpackage.fth.a;
+
+/* renamed from: qyi */
+public enum qyi implements fth {
+    DEBUG(a.a(false)),
+    AST_VERSION_ID(a.a("ff_prod.v2")),
+    TRAVEL_MODE(a.a(false)),
+    SHOW_CONTACT_SYNC_FEED_HEADER_PROMPT(a.a(false)),
+    SHOW_SUICIDE_PREVENTION_FEED_HEADER_PROMPT(a.a(false)),
+    SHOW_NOTIFICATION_FEED_HEADER_PROMPT(a.a(false)),
+    SHOW_PHONE_VERIFICATION_FEED_HEADER_PROMPT(a.a(false)),
+    SHOW_BDAY_FEED_HEADER_PROMPT(a.a(false)),
+    SHOW_EMAIL_HEADER_PROMPT(a.a(false)),
+    PREFETCH_SNAP_STACK_IN_OPERA(a.a(false)),
+    FORCE_SYNC_AND_CLEAR_LOCAL_DATA(a.a(false)),
+    USE_SDL(a.a(false)),
+    SHOW_NEWLY_ADDED_FRIENDS_IN_FEED_CUTOFF_DAYS(a.a(14)),
+    LOGIN_ADDED_OUTGOING_FRIENDS_TO_FEED(a.a(false)),
+    WARM_START_BACKGROUND_TIME_THRESHOLD(a.a(Integer.MAX_VALUE)),
+    LAST_FULL_RANKING_TIME_THRESHOLD(a.a(Integer.MAX_VALUE)),
+    WARM_START_LAST_FULL_RANKING_TIME_THRESHOLD(a.a(Integer.MAX_VALUE)),
+    NAV_AWAY_THRESHOLD(a.a(-1)),
+    TOOLTIP_HAS_SEEN_TAP_TO_WATCH_THIS_STORY(a.a(false)),
+    EMAIL_VERIFICATION_PROMPT_GRACE_PERIOD_SECS(a.a(15552000)),
+    EMAIL_VERIFICATION_PROMPT_TO_SHOW_AT_SECS(a.a(0)),
+    FEED_HEADER_PROMPT_V2(a.a(r2)),
+    TOOLTIP_HAS_SEEN_TAP_TO_WATCH_THIS_SNAP(a.a(false)),
+    RERANKER_CHAT_DEMOTION_FACTOR(a.a(1.0f)),
+    RERANKER_STORY_DEMOTION_FACTOR(a.a(2.0f)),
+    RERANKER_ENABLED(a.a(true)),
+    PROMPT_TO_FIRST_TIME_SHOWN_KEY(a.a("{}")),
+    HAS_SEEN_BIRTHDAY_PROMPT(a.a(false)),
+    HAS_SEEN_NOTIFICATION_PROMPT(a.a(false)),
+    HAS_SEEN_PHONE_PROMPT(a.a(false)),
+    PROMPT_LAST_CLICKED_TIMESTAMP(a.a(0)),
+    SUICIDE_PREVENTION_FEED_HEADER_PROMPT_SEEN_COUNT(a.a(0)),
+    NOTIFICATION_FEED_HEADER_PROMPT_SEEN_COUNT(a.a(0)),
+    PHONE_VERIFICATION_FEED_HEADER_PROMPT_SEEN_COUNT(a.a(0)),
+    BDAY_FEED_HEADER_PROMPT_SEEN_COUNT(a.a(0)),
+    EMAIL_VERIFICATION_HEADER_PROMPT_SEEN_COUNT(a.a(0)),
+    CONTACT_SYNC_HEADER_PROMPT_SEEN_COUNT(a.a(0)),
+    LAST_FULL_SYNC_TIME_SECONDS(a.a(0)),
+    SHOULD_FORCE_CLEAR_DATA_ON_NEXT_SYNC(a.a(false)),
+    CONVERSATION_CHECKSUM(a.a(r2)),
+    DELTA_SYNC_TOKEN(a.a(r2)),
+    LAST_CHECK_FOR_NEW_STORIES_MS(a.a(0)),
+    LAST_WATCHED_FRIEND_STORY_DF_MS(a.a(0)),
+    LAST_FRIEND_STORY_BUTTON_IMPRESSION_MS(a.a(0)),
+    USE_LOQ_CONVERSATIONS(a.a(false));
+    
+    private final a<?> delegate;
+
+    private qyi(a<?> aVar) {
+        this.delegate = aVar;
+    }
+
+    public final a<?> a() {
+        return this.delegate;
+    }
+
+    public final ftg b() {
+        return ftg.FRIENDS_FEED;
+    }
+}

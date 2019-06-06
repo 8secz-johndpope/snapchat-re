@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt">
+    <View android:id="@+id/lenses_start_button_content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/lenses_start_button_start" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/start_button_foreground"/>
+    <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/lenses_start_button_glare" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/snappables_start_button_highlight" android:scaleType="fitXY"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/lenses_start_button_spinner_stub" android:layout="@layout/lenses_start_button_spinner" android:inflatedId="@+id/lenses_start_button_spinner" android:layout_width="18dp" android:layout_height="18dp"/>
+</merge>

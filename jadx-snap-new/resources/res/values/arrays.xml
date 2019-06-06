@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="batterymeter_bolt_points">
+        <item>20</item>
+        <item>@null</item>
+        <item>16</item>
+        <item>15</item>
+        <item>25</item>
+        <item>15</item>
+        <item>5</item>
+        <item>35</item>
+        <item>9</item>
+        <item>20</item>
+        <item>@null</item>
+        <item>20</item>
+    </array>
+    <array name="captioning_color_selector_titles">
+        <item>@string/color_white</item>
+        <item>@string/color_black</item>
+        <item>@string/color_red</item>
+        <item>@string/color_yellow</item>
+        <item>@string/color_green</item>
+        <item>@string/color_cyan</item>
+        <item>@string/color_blue</item>
+        <item>@string/color_magenta</item>
+    </array>
+    <array name="captioning_color_selector_values">
+        <item>ffffffff</item>
+        <item>ff000000</item>
+        <item>ffff0000</item>
+        <item>ffffff00</item>
+        <item>ff00ff00</item>
+        <item>ff00ffff</item>
+        <item>ff0000ff</item>
+        <item>ffff00ff</item>
+        <item>ff000055</item>
+        <item>ff0000aa</item>
+        <item>ff005500</item>
+        <item>ff005555</item>
+        <item>ff0055aa</item>
+        <item>ff0055ff</item>
+        <item>ff00aa00</item>
+        <item>ff00aa55</item>
+        <item>ff00aaaa</item>
+        <item>ff00aaff</item>
+        <item>ff00ff55</item>
+        <item>ff00ffaa</item>
+        <item>ff550000</item>
+        <item>ff550055</item>
+        <item>ff5500aa</item>
+        <item>ff5500ff</item>
+        <item>ff555500</item>
+        <item>ff555555</item>
+        <item>ff5555aa</item>
+        <item>ff5555ff</item>
+        <item>ff55aa00</item>
+        <item>ff55aa55</item>
+        <item>ff55aaaa</item>
+        <item>ff55aaff</item>
+        <item>ff55ff00</item>
+        <item>ff55ff55</item>
+        <item>ff55ffaa</item>
+        <item>ff55ffff</item>
+        <item>ffaa0000</item>
+        <item>ffaa0055</item>
+        <item>ffaa00aa</item>
+        <item>ffaa00ff</item>
+        <item>ffaa5500</item>
+        <item>ffaa5555</item>
+        <item>ffaa55aa</item>
+        <item>ffaa55ff</item>
+        <item>ffaaaa00</item>
+        <item>ffaaaa55</item>
+        <item>ffaaaaaa</item>
+        <item>ffaaaaff</item>
+        <item>ffaaff00</item>
+        <item>ffaaff55</item>
+        <item>ffaaffaa</item>
+        <item>ffaaffff</item>
+        <item>ffff0055</item>
+        <item>ffff00aa</item>
+        <item>ffff5500</item>
+        <item>ffff5555</item>
+        <item>ffff55aa</item>
+        <item>ffff55ff</item>
+        <item>ffffaa00</item>
+        <item>ffffaa55</item>
+        <item>ffffaaaa</item>
+        <item>ffffaaff</item>
+        <item>ffffff55</item>
+        <item>ffffffaa</item>
+    </array>
+    <array name="captioning_edge_type_selector_titles">
+        <item>None</item>
+        <item>Outline</item>
+        <item>Drop shadow</item>
+        <item>Raised</item>
+        <item>Depressed</item>
+    </array>
+    <array name="captioning_edge_type_selector_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </array>
+    <array name="captioning_font_size_selector_titles">
+        <item>Very small</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Very large</item>
+    </array>
+    <array name="captioning_font_size_selector_values">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </array>
+    <array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </array>
+    <array name="captioning_opacity_selector_values">
+        <item>40ffffff</item>
+        <item>80ffffff</item>
+        <item>c0ffffff</item>
+        <item>ffffffff</item>
+    </array>
+    <array name="captioning_preset_selector_titles">
+        <item>White on black</item>
+        <item>Black on white</item>
+        <item>Yellow on black</item>
+        <item>Yellow on blue</item>
+        <item>Custom</item>
+    </array>
+    <array name="captioning_preset_selector_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>-1</item>
+    </array>
+    <array name="captioning_typeface_selector_titles">
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </array>
+    <array name="captioning_typeface_selector_values">
+        <item>sans-serif</item>
+        <item>sans-serif-condensed</item>
+        <item>serif</item>
+        <item>monospace</item>
+    </array>
+    <array name="cognac_in_settings_support_feature">
+        <item>@string/cognac_in_settings_support_option_game_crash</item>
+        <item>@string/cognac_in_settings_support_option_generic_gameplay</item>
+        <item>@string/cognac_in_settings_support_option_chats</item>
+        <item>@string/cognac_in_settings_support_option_saving_game_progress</item>
+        <item>@string/cognac_in_settings_support_option_ringing_friends</item>
+        <item>@string/cognac_in_settings_support_option_launching_games</item>
+        <item>@string/cognac_in_settings_support_option_notifications</item>
+        <item>@string/cognac_in_settings_support_option_live_audio_chat</item>
+    </array>
+    <array name="dialog_menu_items_for_ghost_mode_durations">
+        <item>@string/nyc_ghost_mode_duration_3_hrs</item>
+        <item>@string/nyc_ghost_mode_duration_24_hrs</item>
+        <item>@string/nyc_ghost_mode_duration_forever</item>
+    </array>
+    <array name="dialog_menu_items_for_ghost_mode_durations_short">
+        <item>@string/nyc_ghost_mode_duration_15_secs</item>
+        <item>@string/nyc_ghost_mode_duration_1_minute</item>
+        <item>@string/nyc_ghost_mode_duration_5_minutes</item>
+        <item>@string/nyc_ghost_mode_duration_forever</item>
+    </array>
+    <array name="nyc_settings_ghost_mode_durations_ms">
+        <item>10800000</item>
+        <item>86400000</item>
+        <item>@null</item>
+    </array>
+    <array name="nyc_settings_ghost_mode_durations_ms_short">
+        <item>15000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>@null</item>
+    </array>
+    <array name="s2r_beta_features_list_v1">
+        <item>@string/s2r_beta_feature_bitmoji</item>
+        <item>@string/s2r_beta_feature_camera</item>
+        <item>@string/s2r_beta_feature_chat</item>
+        <item>@string/s2r_beta_feature_crashing</item>
+        <item>@string/s2r_beta_feature_creative_tools</item>
+        <item>@string/s2r_beta_feature_discover</item>
+        <item>@string/s2r_beta_feature_lenses</item>
+        <item>@string/s2r_beta_feature_photo_or_video_quality</item>
+        <item>@string/s2r_beta_feature_snap</item>
+        <item>@string/s2r_beta_feature_story</item>
+        <item>@string/s2r_beta_feature_map</item>
+        <item>@string/s2r_beta_feature_memories</item>
+        <item>@string/s2r_beta_feature_performance</item>
+        <item>@string/s2r_beta_feature_profile</item>
+        <item>@string/s2r_beta_feature_search</item>
+        <item>@string/s2r_beta_feature_snap_streaks</item>
+        <item>@string/s2r_beta_feature_other</item>
+    </array>
+    <array name="s2r_settings_support_camera_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_editing</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_filter_lenses</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_giphy</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_multi_snap</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_photo_or_video_quality</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_send_to_screen</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_stickers</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_taking_a_snap</item>
+    </array>
+    <array name="s2r_settings_support_discover_screen_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_discover_screen_friend_stories</item>
+        <item>@string/s2r_settings_support_discover_screen_hiding_content</item>
+        <item>@string/s2r_settings_support_discover_screen_order_of_stories</item>
+        <item>@string/s2r_settings_support_discover_screen_photo_or_video_quality</item>
+        <item>@string/s2r_settings_support_discover_screen_publisher_stories</item>
+        <item>@string/s2r_settings_support_discover_screen_sharing_stories</item>
+        <item>@string/s2r_settings_support_discover_screen_shows</item>
+        <item>@string/s2r_settings_support_discover_screen_subscriptions</item>
+    </array>
+    <array name="s2r_settings_support_friends_feature_options_v1">
+        <item>@string/s2r_settings_support_friends_screen_adding_or_removing_friends</item>
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_friends_screen_best_friends</item>
+        <item>@string/s2r_settings_support_friends_screen_bitmoji</item>
+        <item>@string/s2r_settings_support_friends_screen_charms</item>
+        <item>@string/s2r_settings_support_friends_screen_chats</item>
+        <item>@string/s2r_settings_support_friends_screen_friendship_emojis</item>
+        <item>@string/s2r_settings_support_friends_screen_group_and_friendship_profiles</item>
+        <item>@string/s2r_settings_support_friends_screen_groups</item>
+        <item>@string/s2r_settings_support_friends_screen_notifications</item>
+        <item>@string/s2r_settings_support_friends_screen_order_of_friends</item>
+        <item>@string/s2r_settings_support_friends_screen_photo_or_video_quality</item>
+        <item>@string/s2r_settings_support_friends_screen_send_to_screen</item>
+        <item>@string/s2r_settings_support_friends_screen_snaps</item>
+        <item>@string/s2r_settings_support_friends_screen_snapstreaks</item>
+        <item>@string/s2r_settings_support_friends_screen_stories</item>
+        <item>@string/s2r_settings_support_friends_screen_voice_video_call</item>
+    </array>
+    <array name="s2r_settings_support_memories_screen_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_memories_screen_editing_a_snap</item>
+        <item>@string/s2r_settings_support_memories_screen_flashback</item>
+        <item>@string/s2r_settings_support_memories_screen_not_loading</item>
+        <item>@string/s2r_settings_support_memories_screen_missing_memories</item>
+        <item>@string/s2r_settings_support_memories_screen_my_eyes_only_snaps</item>
+        <item>@string/s2r_settings_support_memories_screen_password</item>
+        <item>@string/s2r_settings_support_memories_screen_saving_snaps</item>
+        <item>@string/s2r_settings_support_memories_screen_send_to</item>
+    </array>
+    <array name="s2r_settings_support_profile_screen_feature_options_v1">
+        <item>@string/s2r_settings_support_profile_screen_adding_friends</item>
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_profile_screen_bitmoji</item>
+        <item>@string/s2r_settings_support_profile_screen_creating_custom_story</item>
+        <item>@string/s2r_settings_support_profile_screen_managing_your_stories</item>
+        <item>@string/s2r_settings_support_profile_screen_photo_or_video_quality</item>
+        <item>@string/s2r_settings_support_profile_screen_snapscore</item>
+        <item>@string/s2r_settings_support_profile_screen_story_privacy_settings</item>
+        <item>@string/s2r_settings_support_profile_screen_story_views</item>
+    </array>
+    <array name="s2r_settings_support_search_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_search_searching_for_content</item>
+        <item>@string/s2r_settings_support_search_searching_for_friends</item>
+    </array>
+    <array name="s2r_settings_support_settings_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_settings_battery_usage</item>
+        <item>@string/s2r_settings_support_settings_birthday</item>
+        <item>@string/s2r_settings_support_settings_data_usage</item>
+        <item>@string/s2r_settings_support_settings_display_name</item>
+        <item>@string/s2r_settings_support_settings_friendship_emoji</item>
+        <item>@string/s2r_settings_support_settings_mobile_number</item>
+        <item>@string/s2r_settings_support_settings_privacy_settings</item>
+        <item>@string/s2r_settings_support_settings_quick_add</item>
+        <item>@string/s2r_settings_support_settings_travel_mode</item>
+        <item>@string/s2r_settings_support_settings_username</item>
+    </array>
+    <array name="s2r_settings_support_snap_map_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_snap_map_bitmoji</item>
+        <item>@string/s2r_settings_support_snap_map_ghost_mode</item>
+        <item>@string/s2r_settings_support_snap_map_watching_stories</item>
+        <item>@string/s2r_settings_support_snap_map_your_location</item>
+    </array>
+    <array name="supported_typefaces">
+        <item>@string/typeface_avenir_next_demi_bold</item>
+        <item>@string/typeface_avenir_next_medium</item>
+    </array>
+    <array name="tile_background_colors">
+        <item>@color/regular_red</item>
+        <item>@color/regular_blue</item>
+        <item>@color/regular_green</item>
+        <item>@color/regular_purple</item>
+        <item>@color/faded_black</item>
+    </array>
+</resources>

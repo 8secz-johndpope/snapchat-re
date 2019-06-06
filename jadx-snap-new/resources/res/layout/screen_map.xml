@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/map_screen_root" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+    <include layout="@layout/map_content"/>
+    <ViewStub android:layout_gravity="bottom" android:id="@+id/v2_btm_bg_gradient" android:layout="@layout/v2_btm_bg_gradient" android:layout_width="match_parent" android:layout_height="150dp"/>
+    <include layout="@layout/screen_map_map_features"/>
+    <ViewStub android:id="@+id/map_explore" android:layout="@layout/map_explore" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/map_carousel_root" android:layout="@layout/map_carousel" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/map_group" android:layout="@layout/map_group" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/nyc_child_fragment_root" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_gravity="bottom" android:id="@+id/map_softnav_bar_underlay" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="1dp" android:alpha="1"/>
+</FrameLayout>

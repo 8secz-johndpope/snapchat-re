@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.preview.tools.view.PreviewVerticalToolbarView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:layout_gravity="right" android:id="@+id/toolbar" android:paddingTop="@dimen/default_gap_three_quarters" android:layout_width="@dimen/tool_bar_width" android:layout_height="match_parent"/>

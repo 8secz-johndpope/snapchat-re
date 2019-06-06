@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.talk.ui.fullscreen.GroupFullscreenPane android:id="@+id/video_pane" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/video_overlay" android:background="@color/black_forty_opacity" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:id="@+id/open_chat" android:background="@drawable/semi_transparent_rounded_rect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lock_screen_chat_button_margin_top" android:layout_marginStart="@dimen/lock_screen_chat_button_margin_start">
+            <ImageView android:layout_width="@dimen/lock_screen_chat_icon_size" android:layout_height="@dimen/lock_screen_chat_icon_size" android:src="@drawable/chat_icon"/>
+            <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/lock_screen_button_text_size" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_screen_chat_button" android:layout_marginStart="-6dp" android:layout_marginEnd="14dp" app:scFontWeight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="4">
+            <com.snap.ui.avatar.AvatarView android:id="@+id/lock_screen_avatar" android:layout_width="@dimen/lock_screen_avatar_size" android:layout_height="@dimen/lock_screen_avatar_size"/>
+            <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/lock_screen_title_text_size" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/lock_screen_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:scFontWeight="2"/>
+            <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/lock_screen_subtitle_text_size" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@+id/lock_screen_subtitle" android:layout_width="@dimen/lock_screen_subtitle_width" android:layout_height="wrap_content" android:maxLines="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/lock_screen_call_button_horizontal_margin">
+                <FrameLayout android:id="@+id/dismiss_call" android:background="@drawable/white_circle_background" android:layout_width="@dimen/lock_screen_call_button_size" android:layout_height="@dimen/lock_screen_call_button_size">
+                    <View android:layout_gravity="center" android:background="@drawable/dismiss_x" android:layout_width="42dp" android:layout_height="42dp"/>
+                </FrameLayout>
+                <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/lock_screen_button_text_size" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lock_screen_call_button_text_margin_top" android:text="@string/dismiss" app:scFontWeight="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/lock_screen_call_button_horizontal_margin">
+                <FrameLayout android:id="@+id/accept_call_container" android:layout_width="@dimen/lock_screen_call_button_size" android:layout_height="@dimen/lock_screen_call_button_size">
+                    <FrameLayout android:id="@+id/accept_call" android:background="@drawable/green_circle_background" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:layout_gravity="center" android:id="@+id/join_button_icon" android:layout_width="56dp" android:layout_height="56dp" android:src="@drawable/start_audiocall" android:tint="@color/white"/>
+                    </FrameLayout>
+                    <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/video_icon" android:background="@drawable/green_circle_background" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp">
+                        <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/start_videocall" android:layout_marginStart="1dp"/>
+                    </FrameLayout>
+                </FrameLayout>
+                <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/lock_screen_button_text_size" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lock_screen_call_button_text_margin_top" android:text="@string/talk_call_prompt_join" app:scFontWeight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

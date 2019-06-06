@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:paddingTop="18dp" android:paddingBottom="18dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <View android:layout_gravity="center" android:id="@+id/scroll_bar" android:background="@android:color/darker_gray" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <View android:layout_gravity="center_horizontal" android:id="@+id/scroll_handle" android:background="@android:color/darker_gray" android:layout_width="6dp" android:layout_height="32dp"/>
+</FrameLayout>

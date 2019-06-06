@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:paddingTop="@dimen/gallery_loading_spinner_padding" android:paddingBottom="@dimen/gallery_loading_spinner_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.snapchat.android.framework.ui.views.LoadingSpinnerView android:layout_gravity="center" android:id="@+id/loading_indicator" android:layout_width="@dimen/gallery_loading_spinner_size" android:layout_height="@dimen/gallery_loading_spinner_size" app:loading_spinner_color="@color/gallery_loading_spinner_color"/>
+</FrameLayout>

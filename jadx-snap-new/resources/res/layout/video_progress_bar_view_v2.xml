@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.opera.view.media.VideoProgressBarViewV2 xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:layout_gravity="top" android:id="@+id/video_progress_bar_completed" android:layout_width="match_parent" android:layout_height="@dimen/video_progress_bar_v2_min_height" style="?android:attr/progressBarStyleHorizontal"/>
+    <ProgressBar android:layout_gravity="top" android:id="@+id/video_progress_bar_remaining" android:layout_width="match_parent" android:layout_height="@dimen/video_progress_bar_v2_min_height" android:rotation="180" style="?android:attr/progressBarStyleHorizontal"/>
+    <com.snap.opera.view.media.VideoProgressBarTextView android:textSize="@dimen/text_size_very_small" android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/video_progress_bar_label" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/video_progress_bar_v2_max_height" android:maxLines="1" android:fontFamily="@string/typeface_avenir_next_bold"/>
+</com.snap.opera.view.media.VideoProgressBarViewV2>

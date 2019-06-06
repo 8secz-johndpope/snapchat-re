@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/item" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="@dimen/send_to_item_height" android:baselineAligned="false" android:layoutDirection="ltr">
+    <include android:id="@+id/left" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="1dp" android:layout_marginEnd="2dp" layout="@layout/send_to_two_friends_pane"/>
+    <include android:id="@+id/right" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginEnd="1dp" layout="@layout/send_to_two_friends_pane"/>
+</LinearLayout>

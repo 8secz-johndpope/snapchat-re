@@ -1,0 +1,13 @@
+package defpackage;
+
+/* renamed from: wjc */
+public enum wjc {
+    NO_APP_REFRESH_TOKEN,
+    SERVER_INVALID_REFRESH_TOKEN,
+    UNAUTHORIZED_SCOPE,
+    NETWORK_PERMISSION_ERROR,
+    NETWORK_FAILURE,
+    LOGOUT_CANCEL,
+    SERVER_RESPONSE_ERROR,
+    USER_NOT_FOUND
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.camera.hint.DefaultHintView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/lens_camera_hint_text_size" android:textColor="@android:color/white" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/opera_action_menu_header" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="10dp" android:layout_marginRight="12dp">
+            <com.snap.ui.view.SnapFontTextView android:textSize="16dp" android:textColor="@color/white" android:id="@+id/opera_action_menu_primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:scFontWeight="1"/>
+            <com.snap.ui.view.SnapFontTextView android:textSize="12dp" android:textColor="@color/white" android:id="@+id/opera_action_menu_secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:alpha="0.5" app:scFontWeight="1"/>
+        </LinearLayout>
+    </FrameLayout>
+    <com.snapchat.android.framework.ui.actionmenu.ActionMenuOptionsContainerView android:layout_gravity="bottom" android:id="@+id/opera_action_menu_options" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/action_menu_options_margin_horizontal" android:layout_marginRight="@dimen/action_menu_options_margin_horizontal" android:layout_marginBottom="@dimen/action_menu_options_margin_vertical"/>
+</FrameLayout>

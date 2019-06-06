@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/map_group_card_root" android:layout_width="match_parent" android:layout_height="@dimen/map_carousel_card_height" android:baselineAligned="false">
+    <FrameLayout android:id="@+id/avatar_container" android:layout_width="@dimen/map_group_image_size" android:layout_height="@dimen/map_group_image_size" android:layout_margin="@dimen/default_gap"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:id="@+id/group_name_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="0dp" android:paddingEnd="0dp">
+        <com.snap.ui.view.SnapFontTextView android:textSize="17sp" android:textColor="@color/carousel_name_black" android:ellipsize="end" android:id="@+id/group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:scFontWeight="1"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="12sp" android:textColor="@color/carousel_prompt_grey" android:ellipsize="end" android:id="@+id/group_subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:autoFit="true"/>
+    </LinearLayout>
+</LinearLayout>

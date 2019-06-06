@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snapchat.android.framework.ui.layout.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:id="@+id/sticker_view_binding_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.stickers.ui.views.meta.MetaStickerView android:layout_gravity="center" android:id="@+id/sticker_view_binding_target" android:padding="@dimen/sticker_item_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" app:actualImageScaleType="2"/>
+</com.snapchat.android.framework.ui.layout.SquareFrameLayout>

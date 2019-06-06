@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="cognac_in_settings_support_feature">
+        <item>@string/cognac_in_settings_support_option_game_crash</item>
+        <item>@string/cognac_in_settings_support_option_generic_gameplay</item>
+        <item>@string/cognac_in_settings_support_option_chats</item>
+        <item>@string/cognac_in_settings_support_option_saving_game_progress</item>
+        <item>@string/cognac_in_settings_support_option_ringing_friends</item>
+        <item>@string/cognac_in_settings_support_option_launching_games</item>
+        <item>@string/cognac_in_settings_support_option_notifications</item>
+        <item>@string/cognac_in_settings_support_option_live_audio_chat</item>
+    </array>
+    <array name="dialog_menu_items_for_ghost_mode_durations">
+        <item>@string/nyc_ghost_mode_duration_3_hrs</item>
+        <item>@string/nyc_ghost_mode_duration_24_hrs</item>
+        <item>@string/nyc_ghost_mode_duration_forever</item>
+    </array>
+    <array name="dialog_menu_items_for_ghost_mode_durations_short">
+        <item>@string/nyc_ghost_mode_duration_15_secs</item>
+        <item>@string/nyc_ghost_mode_duration_1_minute</item>
+        <item>@string/nyc_ghost_mode_duration_5_minutes</item>
+        <item>@string/nyc_ghost_mode_duration_forever</item>
+    </array>
+    <array name="s2r_beta_features_list_v1">
+        <item>@string/s2r_beta_feature_bitmoji</item>
+        <item>@string/s2r_beta_feature_camera</item>
+        <item>@string/s2r_beta_feature_chat</item>
+        <item>@string/s2r_beta_feature_crashing</item>
+        <item>@string/s2r_beta_feature_creative_tools</item>
+        <item>@string/s2r_beta_feature_discover</item>
+        <item>@string/s2r_beta_feature_lenses</item>
+        <item>@string/s2r_beta_feature_photo_or_video_quality</item>
+        <item>@string/s2r_beta_feature_snap</item>
+        <item>@string/s2r_beta_feature_story</item>
+        <item>@string/s2r_beta_feature_map</item>
+        <item>@string/s2r_beta_feature_memories</item>
+        <item>@string/s2r_beta_feature_performance</item>
+        <item>@string/s2r_beta_feature_profile</item>
+        <item>@string/s2r_beta_feature_search</item>
+        <item>@string/s2r_beta_feature_snap_streaks</item>
+        <item>@string/s2r_beta_feature_other</item>
+    </array>
+    <array name="s2r_settings_support_camera_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_editing</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_filter_lenses</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_giphy</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_multi_snap</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_photo_or_video_quality</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_send_to_screen</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_stickers</item>
+        <item>@string/s2r_settings_support_camera_screen_feature_taking_a_snap</item>
+    </array>
+    <array name="s2r_settings_support_discover_screen_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_discover_screen_friend_stories</item>
+        <item>@string/s2r_settings_support_discover_screen_hiding_content</item>
+        <item>@string/s2r_settings_support_discover_screen_order_of_stories</item>
+        <item>@string/s2r_settings_support_discover_screen_photo_or_video_quality</item>
+        <item>@string/s2r_settings_support_discover_screen_publisher_stories</item>
+        <item>@string/s2r_settings_support_discover_screen_sharing_stories</item>
+        <item>@string/s2r_settings_support_discover_screen_shows</item>
+        <item>@string/s2r_settings_support_discover_screen_subscriptions</item>
+    </array>
+    <array name="s2r_settings_support_friends_feature_options_v1">
+        <item>@string/s2r_settings_support_friends_screen_adding_or_removing_friends</item>
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_friends_screen_best_friends</item>
+        <item>@string/s2r_settings_support_friends_screen_bitmoji</item>
+        <item>@string/s2r_settings_support_friends_screen_charms</item>
+        <item>@string/s2r_settings_support_friends_screen_chats</item>
+        <item>@string/s2r_settings_support_friends_screen_friendship_emojis</item>
+        <item>@string/s2r_settings_support_friends_screen_group_and_friendship_profiles</item>
+        <item>@string/s2r_settings_support_friends_screen_groups</item>
+        <item>@string/s2r_settings_support_friends_screen_notifications</item>
+        <item>@string/s2r_settings_support_friends_screen_order_of_friends</item>
+        <item>@string/s2r_settings_support_friends_screen_photo_or_video_quality</item>
+        <item>@string/s2r_settings_support_friends_screen_send_to_screen</item>
+        <item>@string/s2r_settings_support_friends_screen_snaps</item>
+        <item>@string/s2r_settings_support_friends_screen_snapstreaks</item>
+        <item>@string/s2r_settings_support_friends_screen_stories</item>
+        <item>@string/s2r_settings_support_friends_screen_voice_video_call</item>
+    </array>
+    <array name="s2r_settings_support_memories_screen_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_memories_screen_editing_a_snap</item>
+        <item>@string/s2r_settings_support_memories_screen_flashback</item>
+        <item>@string/s2r_settings_support_memories_screen_not_loading</item>
+        <item>@string/s2r_settings_support_memories_screen_missing_memories</item>
+        <item>@string/s2r_settings_support_memories_screen_my_eyes_only_snaps</item>
+        <item>@string/s2r_settings_support_memories_screen_password</item>
+        <item>@string/s2r_settings_support_memories_screen_saving_snaps</item>
+        <item>@string/s2r_settings_support_memories_screen_send_to</item>
+    </array>
+    <array name="s2r_settings_support_profile_screen_feature_options_v1">
+        <item>@string/s2r_settings_support_profile_screen_adding_friends</item>
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_profile_screen_bitmoji</item>
+        <item>@string/s2r_settings_support_profile_screen_creating_custom_story</item>
+        <item>@string/s2r_settings_support_profile_screen_managing_your_stories</item>
+        <item>@string/s2r_settings_support_profile_screen_photo_or_video_quality</item>
+        <item>@string/s2r_settings_support_profile_screen_snapscore</item>
+        <item>@string/s2r_settings_support_profile_screen_story_privacy_settings</item>
+        <item>@string/s2r_settings_support_profile_screen_story_views</item>
+    </array>
+    <array name="s2r_settings_support_search_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_search_searching_for_content</item>
+        <item>@string/s2r_settings_support_search_searching_for_friends</item>
+    </array>
+    <array name="s2r_settings_support_settings_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_settings_battery_usage</item>
+        <item>@string/s2r_settings_support_settings_birthday</item>
+        <item>@string/s2r_settings_support_settings_data_usage</item>
+        <item>@string/s2r_settings_support_settings_display_name</item>
+        <item>@string/s2r_settings_support_settings_friendship_emoji</item>
+        <item>@string/s2r_settings_support_settings_mobile_number</item>
+        <item>@string/s2r_settings_support_settings_privacy_settings</item>
+        <item>@string/s2r_settings_support_settings_quick_add</item>
+        <item>@string/s2r_settings_support_settings_travel_mode</item>
+        <item>@string/s2r_settings_support_settings_username</item>
+    </array>
+    <array name="s2r_settings_support_snap_map_feature_options_v1">
+        <item>@string/s2r_settings_support_feature_selection_crash</item>
+        <item>@string/s2r_settings_support_snap_map_bitmoji</item>
+        <item>@string/s2r_settings_support_snap_map_ghost_mode</item>
+        <item>@string/s2r_settings_support_snap_map_watching_stories</item>
+        <item>@string/s2r_settings_support_snap_map_your_location</item>
+    </array>
+</resources>

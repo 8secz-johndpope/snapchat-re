@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/carousel_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.snap.discoverfeed.ui.common.view.SimpleChildRecyclerView android:id="@+id/recycler_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/small_card_outter_half_side_margin" android:paddingEnd="@dimen/small_card_outter_half_side_margin"/>
+</FrameLayout>

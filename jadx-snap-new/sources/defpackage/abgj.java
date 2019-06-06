@@ -1,0 +1,16 @@
+package defpackage;
+
+/* renamed from: abgj */
+public enum abgj {
+    CALL_INITIATED,
+    REQUEST_RECEIVED,
+    ADDLIVE_CONNECTED,
+    REMOTE_CONNECTED,
+    REMOTE_REJECTED,
+    REMOTE_ACCEPTED,
+    LOCAL_REJECTED,
+    LOCAL_ACCEPTED,
+    REMOTE_ABANDONED,
+    MEDIA_RECEIVED,
+    CALL_MATURED
+}

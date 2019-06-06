@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt">
+    <View android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="1dp" android:layout_height="1dp"/>
+    <View android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_width="1dp" android:layout_height="1dp"/>
+    <FrameLayout android:id="@+id/scene_holder" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="bottom" android:id="@+id/hova_nav_inset_view" android:layout="@layout/hova_nav_inset_view" android:layout_width="match_parent" android:layout_height="0dp"/>
+</merge>

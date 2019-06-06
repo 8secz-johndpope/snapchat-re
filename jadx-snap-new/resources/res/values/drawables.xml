@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="camera_flip_back" />
+    <drawable name="camera_flip_front" />
+    <drawable name="camera_flip_icon" />
+    <drawable name="chat_typing_bubble">@drawable/ff_chat_typing_bubble</drawable>
+    <drawable name="ff_chat_typing_bubble" />
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+</resources>

@@ -1,0 +1,24 @@
+package defpackage;
+
+/* renamed from: aahz */
+public enum aahz {
+    DISCOVER_EDITION,
+    STORY_LIVE,
+    VERIFY_PHONE,
+    VERIFY_EMAIL,
+    ADD_FRIEND,
+    CONTENT_INVITE,
+    BITMOJI,
+    UNLOCK,
+    UNLOCK_SHARE,
+    PARTNER,
+    DOGOOD,
+    SHAZAM,
+    COMMERCE,
+    SNAP_CONNECT_LOGIN,
+    SNAP_KIT_CREATIVE_KIT_PREVIEW,
+    SNAP_KIT_CREATIVE_KIT_CAMERA,
+    COGNAC,
+    CREATIVE_KIT_LITE,
+    CREATIVE_KIT_WEB
+}

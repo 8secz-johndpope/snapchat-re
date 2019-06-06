@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop">
+    <com.snap.ui.view.SquareImageView android:id="@+id/captcha_image" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.snap.ui.view.SquareImageView android:id="@+id/captcha_frame" android:background="@drawable/captcha_item_frame_shape" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/captcha_check_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" android:src="@drawable/blue_circled_check_mark" android:layout_marginStart="@dimen/default_gap"/>
+</RelativeLayout>

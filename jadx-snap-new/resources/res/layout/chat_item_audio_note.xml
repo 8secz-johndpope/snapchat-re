@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.messaging.chat.ui.view.SwipeableMessageLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/chat_message_content_container" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" style="@style/chat_message_content_container">
+    <include layout="@layout/chat_message_timestamp"/>
+    <include layout="@layout/chat_message_color_bar"/>
+    <FrameLayout android:id="@+id/in_screen_message_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.snap.messaging.chat.ui.view.ReplyLayout android:id="@+id/reply_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/chat_media_margin">
+            <com.snap.ui.messaging.chatitem.AudioNoteView android:id="@+id/audio_note" android:layout_width="@dimen/chat_audio_note_playback_layout" android:layout_height="@dimen/chat_audio_note_playback_layout"/>
+        </com.snap.messaging.chat.ui.view.ReplyLayout>
+    </FrameLayout>
+</com.snap.messaging.chat.ui.view.SwipeableMessageLinearLayout>

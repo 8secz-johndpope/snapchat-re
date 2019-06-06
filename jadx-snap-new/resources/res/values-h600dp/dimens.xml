@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="laguna_onboarding_button_margin">@dimen/default_gap_2x</dimen>
+    <dimen name="laguna_onboarding_description_margin">@dimen/default_gap_2x</dimen>
+    <dimen name="laguna_onboarding_divider_margin">@dimen/default_gap</dimen>
+    <dimen name="laguna_onboarding_title_margin">@dimen/default_gap_4x</dimen>
+    <dimen name="laguna_pairing_need_help_button_vertical_padding">16dp</dimen>
+    <dimen name="laguna_pairing_snapcode_padding">@dimen/default_gap_1_5x</dimen>
+    <dimen name="laguna_pairing_spinner_margin_bottom">70dp</dimen>
+    <dimen name="pairing_status_text_margin">20dp</dimen>
+</resources>

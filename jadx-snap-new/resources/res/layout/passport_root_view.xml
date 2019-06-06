@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/location_sharing_settings_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+    <com.snapchat.android.framework.ui.views.statusbar.StatusBarCustomView android:layout_width="match_parent" android:layout_height="0dp" app:scFixedHeight="0dp"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <FrameLayout android:id="@+id/composerParent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="14dp"/>
+        <com.snap.ui.view.ScHeaderView android:id="@+id/header" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" app:headerArrowColorScheme="@color/regular_blue" app:headerColorScheme="@color/passport_header_gray" app:showBackArrow="true"/>
+    </FrameLayout>
+    <com.snapchat.android.framework.ui.views.SoftNavAwareFrameLayout android:layout_gravity="bottom" android:id="@+id/navbar_underlay" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:alpha="1"/>
+</LinearLayout>

@@ -1,0 +1,32 @@
+package defpackage;
+
+/* renamed from: aajv */
+public enum aajv {
+    SWIPE_DOWN,
+    SWIPE_BEGINNING,
+    SWIPE_END,
+    SWIPE_LEFT,
+    SWIPE_RIGHT,
+    SWIPE_UP,
+    ENTER_BACKGROUND,
+    AUTO_ADVANCE,
+    BACK_PRESSED,
+    ERROR,
+    LONG_PRESS_END,
+    LONG_PRESS_AND_TAP,
+    TAP,
+    TAP_LEFT,
+    LOADING_SCREEN,
+    TAP_THUMBNAIL,
+    TAP_CARET,
+    TAP_X,
+    TAP_DOWN_ARROW,
+    NOTIFICATION_IN_APP,
+    NOTIFICATION_EXTERNAL,
+    TAP_CAMERA_BUTTON,
+    TAP_INTERACTIVE,
+    TAP_HOME,
+    TAP_NEXT,
+    OPEN_BROWSER,
+    MEMORY_CRASH
+}

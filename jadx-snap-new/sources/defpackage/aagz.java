@@ -1,0 +1,10 @@
+package defpackage;
+
+/* renamed from: aagz */
+public enum aagz {
+    CRASH,
+    IOS_BACKGROUND_TERMINATE,
+    IOS_TERMINATE_WITH_APPLICATION_WILL_TERMINATE,
+    ANDROID_BACKGROUND_DESTROYED,
+    ANDROID_BACKGROUND_USER_CLOSED
+}

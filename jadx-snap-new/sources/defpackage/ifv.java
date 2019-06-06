@@ -1,0 +1,12 @@
+package defpackage;
+
+/* renamed from: ifv */
+public enum ifv {
+    JUST_GRANTED,
+    ALREADY_GRANTED,
+    DENIED_NORMALLY_AGAIN,
+    JUST_DENIED_PERMANENTLY,
+    DENIED_NORMALLY_FOR_THE_FIRST_TIME,
+    ALREADY_DENIED_PERMANENTLY,
+    UNKNOWN
+}

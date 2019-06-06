@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.snap.identity.loginsignup.ui.view.ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center_horizontal|center" style="@style/LoginSignupPageContainer">
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/odlv_verifying_page_title" android:text="@string/odlv_verification_title" style="@style/LoginSignupPageTitle"/>
+                <com.snap.ui.view.SnapFontTextView android:textColor="@color/black" android:id="@+id/odlv_verifying_page_context" android:layout_marginBottom="@dimen/default_gap" android:text="@string/odlv_verification_description" style="@style/IdentityPageDescription"/>
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/odlv_verifying_code_description" android:text="@string/signup_verify_phone_hint" style="@style/LoginSignupFieldPrompt"/>
+                <com.snap.ui.view.SnapFontEditText android:id="@+id/odlv_verifying_code_field" android:inputType="number" android:imeOptions="actionNext" style="@style/IdentityField"/>
+                <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/registration_error_message_text_size" android:textColor="@color/error_red" android:id="@+id/odlv_verifying_error_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-4dp" android:minLines="1"/>
+                <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/registration_error_message_text_size" android:textColor="@drawable/press_regular_blue_to_dark_blue_text_selector" android:gravity="center" android:id="@+id/odlv_verifying_trouble_verifying" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/odlv_verification_unable_to_verify"/>
+            </LinearLayout>
+        </com.snap.identity.loginsignup.ui.view.ScrollView>
+        <com.snap.identity.api.sharedui.SubmitResendButton android:gravity="center" android:orientation="horizontal" android:id="@+id/odlv_verifying_continue_button" style="@style/LoginSignupButton"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/back_button" android:layout_width="60dp" android:layout_height="60dp">
+        <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" android:src="@drawable/medium_grey_mirrorable_navigation_back_arrow" android:layout_marginStart="@dimen/default_gap"/>
+    </FrameLayout>
+</FrameLayout>

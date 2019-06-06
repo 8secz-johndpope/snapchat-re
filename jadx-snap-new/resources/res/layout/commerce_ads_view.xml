@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:id="@+id/commerce_ads_loading_spinner" android:layout_width="@dimen/default_gap_3_25x" android:layout_height="@dimen/default_gap_3_25x"/>
+</merge>

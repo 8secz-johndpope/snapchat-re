@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/map_metadata" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+    <com.snap.ui.view.SnapFontTextView android:layout_gravity="center_horizontal" android:id="@+id/time" android:paddingTop="1dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="3dp" android:paddingEnd="2dp" app:scFontWeight="1" style="@style/map_metadata_text"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/divider_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@+id/divider" android:background="@color/map_white_thirty_opacity" android:layout_width="42dp" android:layout_height="1dp"/>
+        <View android:id="@+id/divider_shadow" android:background="@drawable/shadow_black_fifteen" android:layout_width="42dp" android:layout_height="1dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/weather_container" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-4dp" android:layout_marginTop="-4dp" android:layout_marginRight="-4dp" android:layout_marginBottom="-4dp">
+        <ImageView android:id="@+id/weather_icon" android:layout_width="21dp" android:layout_height="17dp" android:scaleType="fitXY"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/weather_temp" android:paddingLeft="3dp" android:paddingTop="1dp" android:paddingRight="3dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:scFontWeight="1" style="@style/map_metadata_text"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_friends_button_subtext">
+        <item>%1$s Snapchatter hat dich geaddet!</item>
+        <item>%1$s Snapchatter haben dich geaddet!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item>Dein Objekt wurde erfolgreich in deinem Privaten Bereich gespeichert. Willst du das Original aus deinen Aufnahmen löschen?</item>
+        <item>Deine Objekte wurden erfolgreich in deinem Privaten Bereich gespeichert. Willst du die Originale aus deinen Aufnahmen löschen?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item>Dein Foto wurde erfolgreich in deinem Privaten Bereich gespeichert. Willst du das Original aus deinen Aufnahmen löschen?</item>
+        <item>Deine Fotos wurden erfolgreich in deinem Privaten Bereich gespeichert. Willst du die Originale aus deinen Aufnahmen löschen?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item>Dein Video wurde erfolgreich in deinem Privaten Bereich gespeichert. Willst du das Original aus deinen Aufnahmen löschen?</item>
+        <item>Deine Videos wurden erfolgreich in deinem Privaten Bereich gespeichert. Willst du die Originale aus deinen Aufnahmen löschen?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item>Original löschen</item>
+        <item>Originale löschen</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item>\10Versuch&apos;s in %1$d Minute nochmal.</item>
+        <item>\10Versuch&apos;s in %1$d Minuten nochmal.</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item>und %d weiterer</item>
+        <item>und %d weitere</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item>Stadt</item>
+        <item>Städte</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item>Land</item>
+        <item>Länder</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item>Ort</item>
+        <item>Orte</item>
+    </plurals>
+    <plurals name="media_export_service_failed">
+        <item>Exportieren von %1$d Snap fehlgeschlagen</item>
+        <item>Exportieren von %1$d Snaps fehlgeschlagen</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item>%1$d Snap wird exportiert …</item>
+        <item>%1$d Snaps werden exportiert …</item>
+    </plurals>
+    <plurals name="media_export_service_queued_exports">
+        <item>%1$d wartet auf Export</item>
+        <item>%1$d warten auf Export</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item>%1$d Snap exportiert</item>
+        <item>%1$d Snaps exportiert</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item>%1$d Snap aus %2$s importiert!</item>
+        <item>%1$d Snaps aus %2$s importiert!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item>%1$d Snap importiert!</item>
+        <item>%1$d Snaps importiert!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item>Neuer Snap von %s</item>
+        <item>Neue Snaps von %s</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item>1 Artikel</item>
+        <item>%d Artikel</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item>Für einen Snap wurde noch kein Backup in Memorys erstellt. Wenn du dich jetzt ausloggst, geht dieser Snap eventuell verloren.</item>
+        <item>Für %1$d Snaps wurde noch kein Backup in Memorys erstellt. Wenn du dich jetzt ausloggst, gehen diese Snaps eventuell verloren.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item>Sekunde</item>
+        <item>Sekunden</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item>%1$d Snap</item>
+        <item>%1$d Snaps</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item>Wie soll dein Snap exportiert werden?</item>
+        <item>Wie sollen deine Snaps exportiert werden?</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item>%d Snap konnte nicht hinzugefügt werden</item>
+        <item>%d Snaps konnten nicht hinzugefügt werden</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item>%d Snap in der Warteschleife …</item>
+        <item>%d Snaps in der Warteschleife …</item>
+    </plurals>
+</resources>

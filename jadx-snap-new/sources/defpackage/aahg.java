@@ -1,0 +1,9 @@
+package defpackage;
+
+/* renamed from: aahg */
+public enum aahg {
+    CONTEXT_MENU_LOCATION_OPERA,
+    CONTEXT_MENU_LOCATION_MAP_MARKER,
+    CONTEXT_MENU_LOCATION_MAP_PASSPORT,
+    CONTEXT_MENU_LOCATION_MAP_EXPLORE
+}

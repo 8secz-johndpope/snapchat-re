@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/ff_feed_quick_add_carousel_item_add_friend_button_height" android:layout_marginTop="@dimen/ff_feed_quick_add_carousel_item_margin">
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/ff_quick_add_header_text_size" android:textColor="@color/regular_blue" android:id="@+id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ff_feed_quick_add_carousel_item_margin" android:layout_marginBottom="@dimen/ff_feed_quick_add_carousel_item_margin" android:includeFontPadding="false" android:layout_marginStart="@dimen/ff_quick_add_header_start_margin" app:scFontWeight="1"/>
+</LinearLayout>

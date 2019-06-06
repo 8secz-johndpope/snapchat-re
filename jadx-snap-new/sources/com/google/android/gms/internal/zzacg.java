@@ -1,0 +1,121 @@
+package com.google.android.gms.internal;
+
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
+import android.os.Bundle;
+import java.util.List;
+import java.util.concurrent.Future;
+
+@zzabh
+public final class zzacg {
+    public final ApplicationInfo applicationInfo;
+    public final String zzatw;
+    public final String zzatx;
+    public final zzala zzatz;
+    public final zzko zzaud;
+    public final zzqh zzauq;
+    public final zzms zzaus;
+    public final List<Integer> zzauu;
+    public final List<String> zzauy;
+    public final float zzaxz;
+    public final boolean zzcia;
+    public final Bundle zzcru;
+    public final zzkk zzcrv;
+    public final PackageInfo zzcrw;
+    public final String zzcry;
+    public final String zzcrz;
+    public final Bundle zzcsa;
+    public final int zzcsb;
+    public final Bundle zzcsc;
+    public final boolean zzcsd;
+    public final int zzcse;
+    public final int zzcsf;
+    public final String zzcsg;
+    public final long zzcsh;
+    public final String zzcsi;
+    public final List<String> zzcsj;
+    public final List<String> zzcsk;
+    public final String zzcsm;
+    public final float zzcsn;
+    public final int zzcso;
+    public final int zzcsp;
+    public final boolean zzcsq;
+    public final boolean zzcsr;
+    public final boolean zzcst;
+    public final String zzcsu;
+    public final int zzcsv;
+    public final Bundle zzcsw;
+    public final String zzcsx;
+    public final boolean zzcsy;
+    public final Bundle zzcsz;
+    public final boolean zzctd;
+    public final String zzcte;
+    public final List<String> zzctf;
+    public final int zzctg;
+    public final boolean zzcth;
+    public final boolean zzcti;
+    public final boolean zzctj;
+    public final Future<String> zzctk;
+    public final Future<String> zzctl;
+
+    public zzacg(Bundle bundle, zzkk zzkk, zzko zzko, String str, ApplicationInfo applicationInfo, PackageInfo packageInfo, String str2, String str3, zzala zzala, Bundle bundle2, List<String> list, List<String> list2, Bundle bundle3, boolean z, int i, int i2, float f, String str4, long j, String str5, List<String> list3, String str6, zzqh zzqh, String str7, float f2, boolean z2, int i3, int i4, boolean z3, boolean z4, Future<String> future, String str8, boolean z5, int i5, Bundle bundle4, String str9, zzms zzms, boolean z6, Bundle bundle5, boolean z7, Future<String> future2, List<Integer> list4, String str10, List<String> list5, int i6, boolean z8, boolean z9, boolean z10) {
+        List list6;
+        List<String> list7 = list;
+        this.zzcru = bundle;
+        this.zzcrv = zzkk;
+        this.zzaud = zzko;
+        this.zzatx = str;
+        this.applicationInfo = applicationInfo;
+        this.zzcrw = packageInfo;
+        this.zzcry = str2;
+        this.zzcrz = str3;
+        this.zzatz = zzala;
+        this.zzcsa = bundle2;
+        this.zzcsd = z;
+        this.zzcse = i;
+        this.zzcsf = i2;
+        this.zzaxz = f;
+        if (list7 == null || list.size() <= 0) {
+            this.zzcsb = 0;
+            list6 = null;
+            this.zzauy = null;
+        } else {
+            this.zzcsb = 3;
+            this.zzauy = list7;
+            list6 = list2;
+        }
+        this.zzcsk = list6;
+        this.zzcsc = bundle3;
+        this.zzcsg = str4;
+        this.zzcsh = j;
+        this.zzcsi = str5;
+        this.zzcsj = list3;
+        this.zzatw = str6;
+        this.zzauq = zzqh;
+        this.zzcsm = str7;
+        this.zzcsn = f2;
+        this.zzcst = z2;
+        this.zzcso = i3;
+        this.zzcsp = i4;
+        this.zzcsq = z3;
+        this.zzcsr = z4;
+        this.zzctk = future;
+        this.zzcsu = str8;
+        this.zzcia = z5;
+        this.zzcsv = i5;
+        this.zzcsw = bundle4;
+        this.zzcsx = str9;
+        this.zzaus = zzms;
+        this.zzcsy = z6;
+        this.zzcsz = bundle5;
+        this.zzctd = z7;
+        this.zzctl = future2;
+        this.zzauu = list4;
+        this.zzcte = str10;
+        this.zzctf = list5;
+        this.zzctg = i6;
+        this.zzcth = z8;
+        this.zzcti = z9;
+        this.zzctj = z10;
+    }
+}

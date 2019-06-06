@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_friends_button_subtext">
+        <item>%1$s Snapchatter نے آپ کو ایڈ کیا!</item>
+        <item>%1$s Snapchatters نے آپ کو ایڈ کیا!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item>آپ کے آئٹم کو کامیابی سے صرف میرے لیے کے فولڈر میں شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے ڈیلیٹ کرنا چاہیں گے؟</item>
+        <item>آپ کے آئٹمز کو صرف میرے لیے کے فولڈر میں کامیابی سے شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے ڈیلیٹ کرنا چاہیں گے؟</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item>آپ کی تصویر کو کامیابی سے صرف میرے لیے کے فولڈر میں شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے ڈیلیٹ کرنا چاہیں گے؟</item>
+        <item>آپ کی تصویروں کو کامیابی سے صرف میرے لیے کے فولڈر میں شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے کو ڈیلیٹ کرنا چاہیں گے؟</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item>آپ کی ویڈیو کو کامیابی سے صرف میرے لیے کے فولڈر میں شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے ڈیلیٹ کرنا چاہیں گے؟</item>
+        <item>آپ کی ویڈیوز کو کامیابی سے صرف میرے لیے کے فولڈر میں شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے ڈیلیٹ کرنا چاہیں گے؟</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item>اصل کو ڈیلیٹ کر دیں</item>
+        <item>اصل کو ڈیلیٹ کر دیں</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item>\10⁦%1$d⁩ منٹ میں دوبارہ کوشش کریں۔</item>
+        <item>\10 ⁦%1$d⁩ منٹ میں دوبارہ کوشش کریں۔</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item>اور %d دیگر</item>
+        <item>اور %d دیگر</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item>شہر</item>
+        <item>شہر</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item>ملک</item>
+        <item>ممالک</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item>جگہ</item>
+        <item>جگہیں</item>
+    </plurals>
+    <plurals name="media_export_service_failed">
+        <item>%1$d Snap برآمد کرنے میں ناکام رہے</item>
+        <item>%1$d Snaps برآمد کرنے میں ناکام رہے</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item>%1$d Snap برآمد کر رہے ہیں۔۔۔</item>
+        <item>%1$d Snaps برآمد کر رہے ہیں۔۔۔</item>
+    </plurals>
+    <plurals name="media_export_service_queued_exports">
+        <item>⁦%1$d⁩ برآمد باقی ہے</item>
+        <item>⁦%1$d⁩ برآمدیں باقی ہیں</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item>%1$d Snap برآمد کی گئی</item>
+        <item>%1$d Snaps برآمد کی گئیں</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item>%2$s سے%1$d Snap درآمد کی گئی</item>
+        <item>%2$s سے %1$d Snap درآمد کی گئیں</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item>%1$d Snap درآمد کی گئی!</item>
+        <item>%1$d Snaps درآمد کی گئیں!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item>%s کی جانب سے نئی Snap</item>
+        <item>%s کی جانب سے نئی Snaps</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item>1 آئٹم</item>
+        <item>%d آئٹمز</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item>ایک Snap کا بیک اپ ابھی یادوں میں نہیں بنایا گیا۔ اگر آپ ابھی لاگ آؤٹ کرتے ہیں، تو یہ Snap کھو سکتی ہے۔</item>
+        <item>%1$d Snaps کو ابھی یادوں میں بیک اپ نہیں کیا گیا۔ اگر آپ ابھی لاگ آؤٹ کرتے ہیں، تو یہSnaps ضائع ہو سکتی ہیں۔</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item>سیکنڈ</item>
+        <item>سیکنڈز</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item>%1$d Snap</item>
+        <item>%1$d Snaps</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item>آپ اپنی Snap کو کیسے برآمد کرنا چاہیں گے؟</item>
+        <item>آپ اپنی Snaps کو کیسے برآمد کرنا چاہیں گے؟</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item>%d Snap شامل کرنے میں ناکام رہے</item>
+        <item>%d Snaps شامل کرنے میں ناکام رہے</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item>%d Snap شامل کرنے کے لیے انتظار کر رہے ہیں۔۔۔</item>
+        <item>%d Snaps شامل کرنے کے لیے انتظار کر رہے ہیں۔۔۔</item>
+    </plurals>
+</resources>

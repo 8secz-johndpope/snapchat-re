@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/neon_header_avatar_container">
+    <com.snap.ui.avatar.AvatarView android:id="@+id/neon_header_avatar" style="@style/hova_avatar_view"/>
+    <ViewStub android:id="@+id/hova_nav_avatar_notification_badge_stub" android:layout="@layout/hova_avatar_notification_badge" android:inflatedId="@+id/hova_nav_avatar_notification_badge" style="@style/hova_avatar_notification_badge"/>
+</merge>

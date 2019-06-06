@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/map_status" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+    <com.snapchat.android.framework.ui.views.statusbar.StatusBarCustomView android:id="@+id/status_bar" android:layout_width="match_parent" android:layout_height="0dp" android:layout_alignParentTop="true" app:scFixedHeight="0dp"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="-56dp" android:layout_below="@+id/header">
+        <FrameLayout android:id="@+id/composerParent" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.snap.ui.view.ScHeaderView android:id="@+id/header" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/status_bar" app:arrowDirection="270" app:headerArrowColorScheme="@color/regular_blue" app:headerColorScheme="@color/passport_header_gray" app:headerRightLayout="@layout/map_status_passport_button" app:headerTitle="@string/map_status_header" app:showBackArrow="true"/>
+</RelativeLayout>

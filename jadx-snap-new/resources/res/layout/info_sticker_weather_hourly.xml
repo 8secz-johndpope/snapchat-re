@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/custom" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="54dp" android:layout_height="106dp" android:layout_marginLeft="4dp" android:layout_marginRight="4dp">
+    <TextView android:textSize="30dp" android:textColor="@color/white" android:id="@+id/weather_hourly_temp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerInParent="true"/>
+    <TextView android:textSize="15dp" android:textColor="@color/white" android:paddingTop="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/degree_symbol" android:includeFontPadding="false" android:layout_toRightOf="@+id/weather_hourly_temp" android:layout_alignTop="@+id/weather_hourly_temp"/>
+    <TextView android:textSize="12dp" android:textColor="@color/white" android:id="@+id/weather_hourly_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="38dp" android:layout_alignParentTop="true" android:layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/settings_birthday_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+    <com.snap.ui.view.ScHeaderView android:id="@+id/sc_header" android:layout_width="match_parent" android:layout_height="wrap_content" app:headerColorScheme="@color/regular_green" app:headerTitle="@string/settings_birthday" app:showBackArrow="true" app:showBottomBorder="true"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x">
+            <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_default" android:gravity="center_horizontal" android:id="@+id/settings_birthday_note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" android:layout_marginBottom="@dimen/default_gap" android:text="@string/settings_birthday_note"/>
+            <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/settings_birthday_field" android:background="@drawable/holo_edit_text_black_selector" android:layout_width="match_parent" android:layout_height="@dimen/ui_element_unit" android:layout_marginTop="@dimen/default_gap" android:hint="@string/settings_birthday_field_hint" android:maxLength="60" style="@style/IdentitySettingsItemName"/>
+                <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/settings_birthday_error_red_x" style="@style/IdentityErrorRedX"/>
+            </FrameLayout>
+            <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/registration_error_message_text_size" android:textColor="@color/error_red" android:id="@+id/settings_birthday_error_message" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-4dp" android:text="@string/settings_birthday_fail_info" android:minLines="1"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/settings_birthday_party" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.snap.ui.view.SnapFontTextView android:paddingTop="2dp" android:paddingBottom="2dp" android:text="@string/settings_birthday_party_text" style="@style/IdentitySettingsItemName"/>
+                    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_fine_print" android:id="@+id/settings_birthday_party_explanation" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_height="wrap_content" style="@style/IdentitySettingsItemText"/>
+                </LinearLayout>
+                <CheckBox android:id="@+id/settings_birthday_party_checkbox" style="@style/IdentitySettingsCheckbox"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.snap.identity.ui.settings.shared.SettingsStatefulButton android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/settings_birthday_continue_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/registration_continue_button_height" app:buttonText="@string/settings_birthday_continue"/>
+    <DatePicker android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/birthday_date_picker" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minDate="01/01/1900" android:maxDate="12/31/2100" android:calendarViewShown="false" android:datePickerMode="spinner"/>
+</LinearLayout>

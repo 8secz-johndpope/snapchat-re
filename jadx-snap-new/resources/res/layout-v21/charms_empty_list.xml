@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/charms_empty_list_view" android:background="@drawable/charm_card_item_background" android:layout_width="match_parent" android:layout_height="@dimen/upchs_nested_scroll_height" android:layout_marginLeft="@dimen/default_gap_2x" android:layout_marginRight="@dimen/default_gap_2x" android:layout_marginBottom="@dimen/upchs_recycler_view_margin" android:elevation="@dimen/simple_card_elevation">
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_fine_print" android:textStyle="bold" android:textColor="@color/dark_grey" android:layout_gravity="center" android:id="@+id/charms_empty_list_label" android:layout_width="250dp" android:layout_height="wrap_content" android:textAlignment="center" app:scFontWeight="1"/>
+</FrameLayout>

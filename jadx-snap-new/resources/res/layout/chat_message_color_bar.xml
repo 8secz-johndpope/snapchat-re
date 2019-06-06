@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/chat_message_color_bar" android:layout_width="@dimen/chat_message_color_bar_width" android:layout_height="match_parent" android:layout_marginEnd="@dimen/chat_message_color_bar_margin"/>

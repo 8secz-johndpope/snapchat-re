@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/custom_toast_container" android:background="@drawable/toast_rounded_corners_white_rectangle" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/marco_polo_alert" android:layout_marginStart="@dimen/default_gap" android:layout_marginEnd="@dimen/default_gap"/>
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/black" android:id="@+id/custom_toast_container_text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

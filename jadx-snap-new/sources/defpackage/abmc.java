@@ -1,0 +1,27 @@
+package defpackage;
+
+import defpackage.abln.e;
+
+/* renamed from: abmc */
+public enum abmc implements e {
+    MAIN_APPLICATION_CONSTRUCTOR,
+    MAIN_APPLICATION_INJECT,
+    MAIN_APPLICATION_POST_INJECT,
+    MAIN_APPLICATION_ON_CREATE,
+    MAIN_ACTIVITY_CONSTRUCTOR,
+    MAIN_ACTIVITY_INJECT,
+    MAIN_ACTIVITY_ON_CREATE,
+    MAIN_ACTIVITY_ON_POST_CREATE,
+    MAIN_ACTIVITY_ON_START,
+    MAIN_ACTIVITY_ON_NEW_INTENT,
+    MAIN_ACTIVITY_RESTART,
+    MAIN_ACTIVITY_ON_RESUME,
+    MAIN_ACTIVITY_ON_POST_RESUME,
+    CAMERA_FRAG_CTOR,
+    OPENING_CAMERA,
+    STARTING_PREVIEW;
+
+    public final String a() {
+        return name();
+    }
+}
