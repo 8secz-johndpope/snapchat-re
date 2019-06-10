@@ -30,18 +30,19 @@ echo "[*] Patching file '$detection_file'"
 patched_src="$(awk '
     BEGIN {
        out = 1
+       sget_count = 0
     }
     /apply/ {
        out = 0
        print
        print "    .locals 0"
        print ""
-       print "    const/4 v0, 0x0"
-       print ""
-       print "    return-object v0"
     }
-    /end method/ {
-	 out = 1
+    /sget-object/ {
+	 sget_count += 1
+	 if (sget_count == 2) {
+	    out = 1
+	 }
     }
     {
 	if (out) {
