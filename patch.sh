@@ -12,6 +12,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 in_file="$1"
+out_file=snapchat-patched.apk
 
 echo "[*] Using '$in_file' as apk to patch"
 
@@ -55,8 +56,13 @@ printf '%s' "$patched_src" > "$detection_file"
 
 echo "[*] Rebuilding apk"
 
-apktool build "$scratch_dir" --output snapchat-patched.apk
+apktool build "$scratch_dir" --output "$out_file"
 
 echo "[*] Removing scratch directory"
 
 rm -rf "$scratch_dir"
+
+echo "[*] Signing apk"
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore \
+	  my-release-key.keystore "$out_file" alias_name
