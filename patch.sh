@@ -64,5 +64,6 @@ rm -rf "$scratch_dir"
 
 echo "[*] Signing apk"
 
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore \
-	  my-release-key.keystore "$out_file" alias_name
+echo 'aaaaaa' \
+    | jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore \
+		my-release-key.keystore "$out_file" alias_name
